@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700,700italic);
+/* line 3, ../scss/compost.scss */
+#content {
+  font-family: "Noto Serif", serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 8, ../scss/compost.scss */
+#content .title, #content .block-title {
+  color: #7d5508 !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 16, ../scss/compost.scss */
+#content .field {
+  margin-bottom: 8px;
+}
+/* line 19, ../scss/compost.scss */
+#content .quote {
+  margin: 40px;
+  padding: 40px;
+  background-color: #eff5e2;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 29, ../scss/compost.scss */
+#content .full-img {
+  width: 70%;
+  margin: 20px 15%;
+}
+/* line 33, ../scss/compost.scss */
+#content .half-img {
+  width: 50%;
+  margin: 20px 25%;
+}
+
+/* line 40, ../scss/compost.scss */
+.section-blog .content .field-item img {
+  float: left;
+  width: 50%;
+  margin: 40px 40px 40px 0;
+}
+/* line 46, ../scss/compost.scss */
+.section-blog .content .views-row {
+  clear: both;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid green;
+}
+
+/* line 55, ../scss/compost.scss */
+.views-row:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 63, ../scss/compost.scss */
+.CSSTableGenerator {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border: 1px solid #000000;
+}
+
+/* line 70, ../scss/compost.scss */
+.CSSTableGenerator table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 79, ../scss/compost.scss */
+.CSSTableGenerator tr:nth-child(odd) {
+  background-color: #e5e5e5;
+}
+
+/* line 83, ../scss/compost.scss */
+.CSSTableGenerator tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/* line 87, ../scss/compost.scss */
+.CSSTableGenerator td {
+  vertical-align: middle;
+  border: 1px solid #000000;
+  border-width: 0px 1px 1px 0px;
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: normal;
+  color: #000000;
+}
+
+/* line 100, ../scss/compost.scss */
+.CSSTableGenerator tr:last-child td {
+  border-width: 0px 1px 0px 0px;
+}
+
+/* line 104, ../scss/compost.scss */
+.CSSTableGenerator tr td:last-child {
+  border-width: 0px 0px 1px 0px;
+}
+
+/* line 108, ../scss/compost.scss */
+.CSSTableGenerator tr:last-child td:last-child {
+  border-width: 0px 0px 0px 0px;
+}
+
+/* line 112, ../scss/compost.scss */
+.CSSTableGenerator tr:first-child td {
+  background: -o-linear-gradient(bottom, #3f7f00 5%, #3f7f00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3f7f00), color-stop(1, #3f7f00));
+  background: -moz-linear-gradient(center top, #3f7f00 5%, #3f7f00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f7f00", endColorstr="#3f7f00");
+  background: -o-linear-gradient(top, #3f7f00, 3 f7f00);
+  background-color: #3f7f00;
+  border: 0px solid #000000;
+  text-align: center;
+  border-width: 0px 0px 1px 1px;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* line 129, ../scss/compost.scss */
+.CSSTableGenerator tr:first-child:hover td {
+  background: -o-linear-gradient(bottom, #3f7f00 5%, #3f7f00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3f7f00), color-stop(1, #3f7f00));
+  background: -moz-linear-gradient(center top, #3f7f00 5%, #3f7f00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f7f00", endColorstr="#3f7f00");
+  background: -o-linear-gradient(top, #3f7f00, 3 f7f00);
+  background-color: #3f7f00;
+}
+
+/* line 139, ../scss/compost.scss */
+.CSSTableGenerator tr:first-child td:first-child {
+  border-width: 0px 0px 1px 0px;
+}
+
+/* line 143, ../scss/compost.scss */
+.CSSTableGenerator tr:first-child td:last-child {
+  border-width: 0px 0px 1px 1px;
+}
+
+/*****************************
+/* product pages display groups
+/***********/
+/* line 152, ../scss/compost.scss */
+.section-shop .content, .section-shop #content {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+/* line 155, ../scss/compost.scss */
+.section-shop .content #content-header .title, .section-shop #content #content-header .title {
+  display: none;
+}
+/* line 159, ../scss/compost.scss */
+.section-shop .content h2.field-name-title-field, .section-shop #content h2.field-name-title-field {
+  font-size: 2em;
+  font-weight: normal;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+/* line 166, ../scss/compost.scss */
+.section-shop .group-main-image {
+  text-align: right;
+}
+
+/* line 172, ../scss/compost.scss */
+div.messages.commerce-add-to-cart-confirmation {
+  width: 50%;
+  left: 40%;
+}
+/* line 177, ../scss/compost.scss */
+div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
+  background-color: #c6e3c4;
+}
+/* line 179, ../scss/compost.scss */
+div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper .button.checkout {
+  background-color: #0a6a10;
+}
+/* line 183, ../scss/compost.scss */
+div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-title {
+  color: #0a6a10;
+  text-align: left;
+}
+
+/* line 191, ../scss/compost.scss */
+.section-cart #content, .section-checkout #content {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 300;
+}
+/* line 196, ../scss/compost.scss */
+.section-cart #content .view-commerce-cart-summary .views-field-line-item-title, .section-checkout #content .view-commerce-cart-summary .views-field-line-item-title {
+  font-weight: bold;
+}
+/* line 200, ../scss/compost.scss */
+.section-cart #content input[type="button"], .section-cart #content input[type="reset"], .section-cart #content input[type="submit"], .section-checkout #content input[type="button"], .section-checkout #content input[type="reset"], .section-checkout #content input[type="submit"] {
+  cursor: pointer;
+  padding: 5px 10px 5px 5px;
+  margin: 5px 10px 5px 0px;
+  text-transform: uppercase;
+}
+/* line 207, ../scss/compost.scss */
+.section-cart #content .commerce-line-item-actions input[type="button"], .section-cart #content .commerce-line-item-actions input[type="reset"], .section-cart #content .commerce-line-item-actions input[type="submit"], .section-checkout #content .commerce-line-item-actions input[type="button"], .section-checkout #content .commerce-line-item-actions input[type="reset"], .section-checkout #content .commerce-line-item-actions input[type="submit"] {
+  margin: 5px 0px 5px 10px;
+}
+/* line 211, ../scss/compost.scss */
+.section-cart #content .views-field-line-item-title, .section-checkout #content .views-field-line-item-title {
+  font-weight: bold;
+}
+
+/* line 218, ../scss/compost.scss */
+.field-name-field-promo-image img {
+  width: 100%;
+  height: auto;
+}

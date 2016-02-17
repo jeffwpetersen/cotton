@@ -1,0 +1,516 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700,700italic);
+/* Layout rules */
+/**
+ * @file
+ * Positioning for a responsive layout.
+ *
+ * Define CSS classes to create a fluid grid layout with optional sidebars
+ * depending on whether blocks are placed in the left or right sidebars.
+ *
+ */
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700,700italic);
+/* Containers for grid items and flow items. */
+/* line 14, ../scss/layouts/_desk.scss */
+#header,
+#navigation,
+#page,
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+#header:after,
+#navigation:after,
+#page:after,
+#footer:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* Apply the shared properties of grid items in a single, efficient ruleset. */
+/* line 33, ../scss/layouts/_desk.scss */
+.no-sidebars #content {
+  width: 94.53552%;
+  float: left;
+  margin-left: 2.73224%;
+  margin-right: 2.73224%;
+}
+
+/* line 38, ../scss/layouts/_desk.scss */
+#header .container, #navigation .container {
+  width: 94.53552%;
+  float: left;
+  margin-left: 2.73224%;
+  margin-right: 2.73224%;
+}
+
+/**
+ * Use 18 grid columns for larger screens.
+ */
+@media all and (min-width: 960px) {
+  /**
+   * The layout when there is only one sidebar, the left one.
+   */
+  /* line 52, ../scss/layouts/_desk.scss */
+  .sidebar-first #content {
+    width: 66.75774%;
+    float: right;
+    margin-left: 2.73224%;
+    margin-right: 2.73224%;
+  }
+  /* line 56, ../scss/layouts/_desk.scss */
+  .sidebar-first #sidebar-first {
+    width: 22.3133%;
+    float: left;
+    margin-left: 2.73224%;
+    margin-right: 2.73224%;
+  }
+
+  /**
+   * The layout when there is only one sidebar, the right one.
+   */
+  /* line 65, ../scss/layouts/_desk.scss */
+  .sidebar-second #content {
+    width: 50.09107%;
+    float: left;
+    margin-left: 8.2878%;
+    margin-right: -100%;
+  }
+  /* line 69, ../scss/layouts/_desk.scss */
+  .sidebar-second .sidebar.second {
+    width: 25.09107%;
+    float: left;
+    margin-left: 69.39891%;
+    margin-right: -100%;
+  }
+
+  /**
+   * The layout when there are two sidebars.
+   */
+  /* line 78, ../scss/layouts/_desk.scss */
+  .two-sidebars #content {
+    width: 50.09107%;
+    float: left;
+    margin-left: 24.95446%;
+    margin-right: -100%;
+  }
+  /* line 82, ../scss/layouts/_desk.scss */
+  .two-sidebars .sidebar.first {
+    width: 16.75774%;
+    float: left;
+    margin-left: 2.73224%;
+    margin-right: 2.73224%;
+  }
+  /* line 86, ../scss/layouts/_desk.scss */
+  .two-sidebars .sidebar.second {
+    width: 16.75774%;
+    float: right;
+    margin-left: 2.73224%;
+    margin-right: 2.73224%;
+  }
+
+  /**
+  *move elsewhere
+  */
+  /* line 96, ../scss/layouts/_desk.scss */
+  .not-front #logo img {
+    height: 40px !important;
+  }
+  /* line 99, ../scss/layouts/_desk.scss */
+  .not-front #site-name {
+    font-size: 14px;
+    margin-top: 10px;
+    text-indent: 10px;
+  }
+}
+/*****************************
+/* product pages display groups
+/***********/
+/* line 113, ../scss/layouts/_desk.scss */
+.group-product-details {
+  width: 50.09107%;
+  float: right;
+  margin-left: 2.73224%;
+  margin-right: 2.73224%;
+}
+
+/* line 116, ../scss/layouts/_desk.scss */
+.group-main-image {
+  width: 38.97996%;
+  float: left;
+  margin-left: 2.73224%;
+  margin-right: 2.73224%;
+}
+
+/* line 7, ../scss/layout.scss */
+#header-full {
+  background-color: #aec380;
+  padding-top: 10px;
+}
+
+/* line 8, ../scss/layout.scss */
+#navigation-full {
+  background-color: #576240;
+  border-bottom: solid 5px #aec380;
+  border-top: solid 1px #483e0e;
+}
+
+/* line 9, ../scss/layout.scss */
+#page-full {
+  background-color: #FFF;
+  min-height: 500px;
+  padding: 20px 0;
+  min-height: 1000px;
+}
+
+/* line 10, ../scss/layout.scss */
+#footer-full {
+  background-color: #576240;
+  height: 150px;
+}
+
+/* line 11, ../scss/layout.scss */
+#header {
+  background-color: #aec380;
+  margin-top: 10px;
+}
+
+/* line 12, ../scss/layout.scss */
+#navigation {
+  background-color: #576240;
+}
+
+/* line 13, ../scss/layout.scss */
+#page {
+  background-color: #FFF;
+}
+
+/* line 14, ../scss/layout.scss */
+#footer {
+  background-color: #576240;
+}
+
+/* line 16, ../scss/layout.scss */
+#header,
+#navigation,
+#page,
+#footer {
+  max-width: 1800px;
+}
+
+/* line 23, ../scss/layout.scss */
+.alpha-list {
+  display: table;
+  width: 100%;
+  margin: 10px 0;
+}
+/* line 29, ../scss/layout.scss */
+.alpha-list span a {
+  display: table-cell;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  margin: 0 1px 1px 0;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  background-color: #F3F3F3;
+  float: left;
+  font-size: .8em;
+}
+/* line 42, ../scss/layout.scss */
+.alpha-list span a:hover {
+  background-color: #337ab4;
+  color: #FFF;
+}
+
+/* line 49, ../scss/layout.scss */
+.view-content table {
+  font-size: .9em;
+}
+/* line 51, ../scss/layout.scss */
+.view-content table td {
+  vertical-align: top;
+  min-width: 30% !important;
+}
+
+/*********************************** @group MegaMenu * Top Menu * Custoemr Service Menu */
+/* line 60, ../scss/layout.scss */
+#block-system-main-menu .content ul {
+  display: table;
+}
+/* line 62, ../scss/layout.scss */
+#block-system-main-menu .content ul li {
+  display: table-cell;
+  table-layout: fixed;
+  margin: 0px;
+  padding: 0px;
+  border-top-left-radius: .2em .2em;
+  border-top-right-radius: .2em .2em;
+}
+/* line 69, ../scss/layout.scss */
+#block-system-main-menu .content ul li a {
+  color: #fff;
+  font-size: 1em;
+  display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+}
+/* line 78, ../scss/layout.scss */
+#block-system-main-menu .content ul li:hover {
+  background-color: #483e0e;
+  border-bottom-color: #fff;
+}
+/* line 87, ../scss/layout.scss */
+#block-system-main-menu .content .active-trail a {
+  background-color: #483e0e;
+}
+
+/* line 94, ../scss/layout.scss */
+#block-menu-menu-footer-navigation .content {
+  padding-top: 50px;
+}
+/* line 97, ../scss/layout.scss */
+#block-menu-menu-footer-navigation .content ul li {
+  display: inline;
+  float: left;
+  margin: 0px 20px 0 0;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 104, ../scss/layout.scss */
+#block-menu-menu-footer-navigation .content ul li a {
+  color: #fff;
+  font-size: 1em;
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: .1em;
+  font-weight: normal;
+}
+/* line 113, ../scss/layout.scss */
+#block-menu-menu-footer-navigation .content ul li a:hover {
+  border-bottom-color: #483e0e;
+  text-decoration: underline;
+}
+/* line 119, ../scss/layout.scss */
+#block-menu-menu-footer-navigation .content ul li span {
+  color: #fff;
+}
+
+/* line 127, ../scss/layout.scss */
+.megamenu-skin-id7 {
+  position: relative;
+  left: 1px;
+  display: block;
+  font-size: 80%;
+  padding: 0;
+  float: right;
+  top: 5px;
+  height: 30px !important;
+}
+/* line 137, ../scss/layout.scss */
+.megamenu-skin-id7 .megamenu-parent h2 {
+  margin: 0;
+}
+/* line 141, ../scss/layout.scss */
+.megamenu-skin-id7 .megamenu-parent h2 a {
+  padding: 5px 10px;
+  margin: 0;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  border-top: none;
+  /* CSS3 */
+  -webkit-border-radius: px 0px 0 0;
+  -moz-border-radius: 0px 0px 0 0;
+  border-radius: 0px 0px 0 0;
+  /*	
+  -moz-box-shadow:    0px 1px 1px -1px  #ccc;
+  -webkit-box-shadow: 0px 1px 1px -1px  #ccc;
+  box-shadow:        0px 1px 1px -1px #ccc;
+  */
+  border-left: solid 1px transparent;
+  border-right: solid 1px transparent;
+}
+/* line 162, ../scss/layout.scss */
+.megamenu-skin-id7 .megamenu-parent h2 a:hover {
+  /* first parent menu hover state */
+  background: #00598e;
+  text-decoration: none;
+  color: #fff;
+  border: solid 1px #ccc;
+}
+/* line 169, ../scss/layout.scss */
+.megamenu-skin-id7 .megamenu-bin {
+  border: solid 1px #ccc;
+  line-height: 22px;
+  list-style: none;
+  /* CSS3 */
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  -moz-box-shadow: 0px 5px 5px -1px  #ccc;
+  -webkit-box-shadow: 0px 5px 5px -1px  #ccc;
+  box-shadow: 0px 5px 5px -1px #ccc;
+}
+/* line 183, ../scss/layout.scss */
+.megamenu-skin-id7 li, .megamenu-skin-id7 li ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+/* line 188, ../scss/layout.scss */
+.megamenu-skin-id7 .megamenu-items {
+  border-bottom: solid 1px #fff;
+}
+/* line 192, ../scss/layout.scss */
+.megamenu-skin-id7 .megamenu-slot, .megamenu-skin-id7 .megamenu-item {
+  width: 175px;
+}
+/* line 196, ../scss/layout.scss */
+.megamenu-skin-id7 .megamenu-slot:hover, .megamenu-skin-id7 .megamenu-item:hover {
+  background-color: #083752;
+  width: 175px;
+}
+/* line 201, ../scss/layout.scss */
+.megamenu-skin-id7 .megamenu-slot h3 a {
+  color: #fff;
+  font-size: 100%;
+  display: block;
+  padding: 8px;
+  border-bottom: 1px solid #FFF;
+}
+/* line 209, ../scss/layout.scss */
+.megamenu-skin-id7 .megamenu-slot a {
+  color: #d0ebfe;
+  padding: 2px 4px 0 20px;
+  font-size: 100%;
+}
+/* line 215, ../scss/layout.scss */
+.megamenu-skin-id7 .hovering h2 a {
+  /* first parent level menu list hover state*/
+}
+
+/* submit */
+/* line 223, ../scss/layout.scss */
+.view .views-exposed-form {
+  margin: 0 0 20px 0;
+}
+/* line 226, ../scss/layout.scss */
+.view .views-exposed-widgets {
+  color: #FFF;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 231, ../scss/layout.scss */
+.view .views-exposed-widgets select, .view .views-exposed-widgets form, .view .views-exposed-widgets input {
+  color: #666;
+  padding: 0;
+}
+/* line 236, ../scss/layout.scss */
+.view .views-exposed-widgets .form-submit {
+  background-color: #337ab4;
+  padding: 5px 10px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+/* line 242, ../scss/layout.scss */
+.view .views-exposed-widgets .form-submit:hover {
+  background-color: #900;
+}
+/* line 245, ../scss/layout.scss */
+.view .views-exposed-widgets .view-header {
+  margin-bottom: 10px;
+  clear: both;
+}
+/* line 250, ../scss/layout.scss */
+.view #edit-field-incident-date-value-wrapper {
+  margin-right: 20px;
+}
+
+/* line 256, ../scss/layout.scss */
+.page-incidents #edit-taxonomy-vocabulary-6-tid, .page-incidents #edit-taxonomy-vocabulary-1-tid, .page-incidents #edit-taxonomy-vocabulary-4-tid {
+  height: 280px !important;
+}
+/* line 258, ../scss/layout.scss */
+.page-incidents #edit-taxonomy-vocabulary-6-tid option, .page-incidents #edit-taxonomy-vocabulary-1-tid option, .page-incidents #edit-taxonomy-vocabulary-4-tid option {
+  padding: 2px;
+  size: 10 !important;
+}
+
+/* buttons */
+/* line 267, ../scss/layout.scss */
+input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  padding: 5px 10px 5px 0;
+  margin: 5px 10px 5px 0;
+}
+
+/* line 273, ../scss/layout.scss */
+.comments {
+  padding: 20px;
+  margin-top: 20px;
+  border: solid 2px #CCC;
+}
+
+/* line 279, ../scss/layout.scss */
+.vertical-tabs {
+  margin: 20px 0 0 0 !important;
+}
+/* line 281, ../scss/layout.scss */
+.vertical-tabs .vertical-tabs-list {
+  margin: 0px !important;
+}
+
+/* line 286, ../scss/layout.scss */
+.item-list .pager {
+  text-align: left !important;
+  margin: 20px 0;
+}
+
+/* line 291, ../scss/layout.scss */
+.related-link, .print_html, .print_pdf {
+  padding: 5px 10px;
+  background-color: #999;
+  border-radius: 20px;
+  margin-top: 15px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  clear: both;
+  margin-left: 0px !important;
+}
+/* line 301, ../scss/layout.scss */
+.related-link a, .print_html a, .print_pdf a {
+  color: #FFF !important;
+}
+
+/* line 308, ../scss/layout.scss */
+.sidebar .block h2 {
+  border-bottom: none;
+}
+
+/* line 314, ../scss/layout.scss */
+.role-anonymous-user #edit-field-incident-status {
+  display: none;
+}
+
+/* line 318, ../scss/layout.scss */
+#edit-field-incident-description-und-0-format-help, #edit-field-comments-suggested-action-und-0-format-help, #edit-field-comments-und-0-format-help,
+.form-item-field-incident-number-und-0-value {
+  display: none;
+}

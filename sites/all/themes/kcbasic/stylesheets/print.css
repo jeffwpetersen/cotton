@@ -1,0 +1,54 @@
+/* line 2, ../scss/print.scss */
+* {
+  background-color: transparent;
+}
+
+/* line 8, ../scss/print.scss */
+.sidebar,
+#navigation,
+#header-region,
+#search-theme-form,
+#footer,
+.breadcrumb,
+.tabs,
+.feed-icon,
+.links {
+  display: none;
+}
+
+/* line 20, ../scss/print.scss */
+#page {
+  width: 100%;
+}
+
+/* line 24, ../scss/print.scss */
+#content,
+#content #content-inner,
+.content,
+.title {
+  margin: 20px 0;
+  width: auto;
+}
+
+/* line 33, ../scss/print.scss */
+a:hover, a:active, a:link, a:visited {
+  color: black;
+}
+
+/* line 43, ../scss/print.scss */
+#content a:link:after, #content a:visited:after {
+  content: " (" attr(href) ") ";
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+/* line 50, ../scss/print.scss */
+#print-page {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 55, ../scss/print.scss */
+#date_header, #address_info {
+  font-weight: bold;
+}
