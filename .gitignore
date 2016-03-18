@@ -5,9 +5,12 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 sites/all/themes/kcbasic/.sass-cache
+sites/all/themes/kcbasic/images/header_image.png
 */.DS_Store
 */_notes
 */.swp
 .DS_Store
 .idea
 */.idea
+files
+*/files
