@@ -1,0 +1,7 @@
+<?php
+
+function confirm_order_form_commerce_checkout_form_review_alter(&$form, &$form_state, $form_id)
+{
+    dpm($form);
+	$form['buttons']['continue']['#value'] = t('Place Your Order');
+}

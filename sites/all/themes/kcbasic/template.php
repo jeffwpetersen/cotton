@@ -91,7 +91,6 @@ function kcbasic_preprocess_html(&$vars) {
       drupal_add_css(path_to_theme() . '/css/ie10.css', array('group' => CSS_THEME, 'browsers' => array('IE' => 'IE 10', '!IE' => FALSE), 'preprocess' => FALSE));
     }
   }
-
 }
 
 function kcbasic_preprocess_page(&$vars, $hook) {
