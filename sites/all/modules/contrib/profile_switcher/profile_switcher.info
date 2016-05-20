@@ -1,0 +1,14 @@
+name = Profile Switcher
+description = UI to switch between install profiles and/or distributions
+
+core = 7.x
+
+configure = admin/config/development/profile-switcher
+
+
+; Information added by Drupal.org packaging script on 2014-11-19
+version = "7.x-1.0-beta1+1-dev"
+core = "7.x"
+project = "profile_switcher"
+datestamp = "1416424381"
+
