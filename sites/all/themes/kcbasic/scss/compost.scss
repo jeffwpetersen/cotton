@@ -6,6 +6,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   .title, .block-title {
+    font-family: "Noto Serif";
     color: #7d5508 !important;
     text-transform: uppercase;
     font-weight: 700;
@@ -25,6 +26,10 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    clear: both;
+    h3 {
+      padding-bottom: 0px;
+    }
   }
   .full-img {
     width: 70%;
@@ -221,3 +226,80 @@ div.messages.commerce-add-to-cart-confirmation {
   }
 }
 
+/*
+* Styles
+*/
+.nomp {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+.margin-top {
+  margin-top: 31px;
+}
+.margin-bottom {
+  margin-bottom: 31px;
+}
+.padding-bottom {
+  padding-bottom: 31px;
+}
+.padding {
+  padding: 31px;
+}
+
+.open-sans {
+  font-family: "Open Sans" !important;
+}
+.olive {
+  color: #0a2b1d !important;
+}
+.green {
+  color: #86b622;
+}
+.black {
+  color: #000000;
+}
+.gray {
+  color: #494949;
+}
+
+h1.style {
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: #576240;
+  font-weight: bold;
+  font-size:40px !important;
+  letter-spacing: normal !important;
+  line-height: 98%;
+}
+h2.style {
+  font-family: "Open Sans";
+  text-transform: normal;
+  color: #3e3e3e;
+  font-weight: bold;
+  font-size:25px !important;
+  letter-spacing: normal !important;
+}
+.break {
+  height: 12px;
+  background-color: #f2c53a;
+  clear: both;
+}
+.bold-block {
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  font-family: "Open Sans" !important;
+  color: #494949;
+}
+
+.callout {
+  background-color: #86b622;
+  color: #ffffff;
+  padding: 62px 31px;
+  margin: 31px;
+  margin-bottom: 62px;
+  clear: both;
+  font-size: 30px;
+  text-align: center;
+  line-height: 140%;
+
+}

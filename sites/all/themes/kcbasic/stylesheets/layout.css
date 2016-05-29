@@ -38,18 +38,18 @@
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
 /* line 33, ../scss/layouts/_desk.scss */
 .no-sidebars #content {
-  width: 94.53552%;
+  width: 94.62366%;
   float: left;
-  margin-left: 2.73224%;
-  margin-right: 2.73224%;
+  margin-left: 2.68817%;
+  margin-right: 2.68817%;
 }
 
 /* line 38, ../scss/layouts/_desk.scss */
 #header .container, #navigation .container {
-  width: 94.53552%;
+  width: 94.62366%;
   float: left;
-  margin-left: 2.73224%;
-  margin-right: 2.73224%;
+  margin-left: 2.68817%;
+  margin-right: 2.68817%;
 }
 
 /**
@@ -61,17 +61,17 @@
    */
   /* line 52, ../scss/layouts/_desk.scss */
   .sidebar-first #content {
-    width: 66.75774%;
+    width: 66.84588%;
     float: right;
-    margin-left: 2.73224%;
-    margin-right: 2.73224%;
+    margin-left: 2.68817%;
+    margin-right: 2.68817%;
   }
   /* line 56, ../scss/layouts/_desk.scss */
   .sidebar-first #sidebar-first {
-    width: 22.3133%;
+    width: 22.40143%;
     float: left;
-    margin-left: 2.73224%;
-    margin-right: 2.73224%;
+    margin-left: 2.68817%;
+    margin-right: 2.68817%;
   }
 
   /**
@@ -79,16 +79,16 @@
    */
   /* line 65, ../scss/layouts/_desk.scss */
   .sidebar-second #content {
-    width: 50.09107%;
+    width: 50.17921%;
     float: left;
-    margin-left: 8.2878%;
+    margin-left: 8.24373%;
     margin-right: -100%;
   }
   /* line 69, ../scss/layouts/_desk.scss */
   .sidebar-second .sidebar.second {
-    width: 25.09107%;
+    width: 25.17921%;
     float: left;
-    margin-left: 69.39891%;
+    margin-left: 69.35484%;
     margin-right: -100%;
   }
 
@@ -97,24 +97,24 @@
    */
   /* line 78, ../scss/layouts/_desk.scss */
   .two-sidebars #content {
-    width: 50.09107%;
+    width: 50.17921%;
     float: left;
-    margin-left: 24.95446%;
+    margin-left: 24.91039%;
     margin-right: -100%;
   }
   /* line 82, ../scss/layouts/_desk.scss */
   .two-sidebars .sidebar.first {
-    width: 16.75774%;
+    width: 16.84588%;
     float: left;
-    margin-left: 2.73224%;
-    margin-right: 2.73224%;
+    margin-left: 2.68817%;
+    margin-right: 2.68817%;
   }
   /* line 86, ../scss/layouts/_desk.scss */
   .two-sidebars .sidebar.second {
-    width: 16.75774%;
+    width: 16.84588%;
     float: right;
-    margin-left: 2.73224%;
-    margin-right: 2.73224%;
+    margin-left: 2.68817%;
+    margin-right: 2.68817%;
   }
 
   /**
@@ -130,29 +130,223 @@
     margin-top: 10px;
     text-indent: 10px;
   }
+
+  /************************************************************
+* Galleries
+************************************************************/
+  /* line 118, ../scss/layouts/_desk.scss */
+  .grid-of-2 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+  }
+  /* line 12, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  .grid-of-2:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 122, ../scss/layouts/_desk.scss */
+  .grid-of-2 .grid-item {
+    width: 45.61404%;
+    float: left;
+    margin-bottom: 5.08475%;
+    box-sizing: border-box;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-2 .grid-item:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-2 .grid-item:nth-child(2n + 2) {
+    margin-left: 54.38596%;
+    margin-right: -100%;
+    clear: none;
+  }
+
+  /* line 129, ../scss/layouts/_desk.scss */
+  .grid-of-3 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+  }
+  /* line 12, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  .grid-of-3:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 133, ../scss/layouts/_desk.scss */
+  .grid-of-3 .grid-item {
+    width: 27.48538%;
+    float: left;
+    margin-bottom: 5.08475%;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-3 .grid-item:nth-child(3n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-3 .grid-item:nth-child(3n + 2) {
+    margin-left: 36.25731%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-3 .grid-item:nth-child(3n + 3) {
+    margin-left: 72.51462%;
+    margin-right: -100%;
+    clear: none;
+  }
+
+  /* line 138, ../scss/layouts/_desk.scss */
+  .grid-of-4 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+  }
+  /* line 12, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  .grid-of-4:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 142, ../scss/layouts/_desk.scss */
+  .grid-of-4 .grid-item {
+    width: 18.42105%;
+    float: left;
+    margin-bottom: 10.71429%;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-4 .grid-item:nth-child(4n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-4 .grid-item:nth-child(4n + 2) {
+    margin-left: 27.19298%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-4 .grid-item:nth-child(4n + 3) {
+    margin-left: 54.38596%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-4 .grid-item:nth-child(4n + 4) {
+    margin-left: 81.57895%;
+    margin-right: -100%;
+    clear: none;
+  }
+
+  /* line 147, ../scss/layouts/_desk.scss */
+  .grid-of-6 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+  }
+  /* line 12, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  .grid-of-6:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 151, ../scss/layouts/_desk.scss */
+  .grid-of-6 .grid-item {
+    width: 9.35673%;
+    float: left;
+    margin-bottom: 10.71429%;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-6 .grid-item:nth-child(6n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-6 .grid-item:nth-child(6n + 2) {
+    margin-left: 18.12865%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-6 .grid-item:nth-child(6n + 3) {
+    margin-left: 36.25731%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-6 .grid-item:nth-child(6n + 4) {
+    margin-left: 54.38596%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-6 .grid-item:nth-child(6n + 5) {
+    margin-left: 72.51462%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../../.rvm/gems/ruby-2.1.3/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  .grid-of-6 .grid-item:nth-child(6n + 6) {
+    margin-left: 90.64327%;
+    margin-right: -100%;
+    clear: none;
+  }
 }
 /*****************************
 /* product pages display groups
 /***********/
-/* line 113, ../scss/layouts/_desk.scss */
+/* line 168, ../scss/layouts/_desk.scss */
 .group-product-details {
-  width: 50.09107%;
+  width: 50.17921%;
   float: right;
-  margin-left: 2.73224%;
-  margin-right: 2.73224%;
+  margin-left: 2.68817%;
+  margin-right: 2.68817%;
 }
 
-/* line 116, ../scss/layouts/_desk.scss */
+/* line 171, ../scss/layouts/_desk.scss */
 .group-main-image {
-  width: 38.97996%;
+  width: 39.0681%;
   float: left;
-  margin-left: 2.73224%;
-  margin-right: 2.73224%;
+  margin-left: 2.68817%;
+  margin-right: 2.68817%;
 }
 
 /* line 7, ../scss/layout.scss */
 #header-full {
-  background-color: #aec380;
+  background-color: #FFFFFF;
   padding-top: 10px;
 }
 
@@ -179,7 +373,7 @@
 
 /* line 11, ../scss/layout.scss */
 #header {
-  background-color: #aec380;
+  background-color: #FFFFFF;
   margin-top: 10px;
 }
 
