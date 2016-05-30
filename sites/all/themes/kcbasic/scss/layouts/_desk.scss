@@ -112,6 +112,8 @@
 
   $susy-nested-gallery: (
           gutter-position:before,
+          gutters: .3,
+
   );
 
   @include with-layout($susy-nested-gallery) {

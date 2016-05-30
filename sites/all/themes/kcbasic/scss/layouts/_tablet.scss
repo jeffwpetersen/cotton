@@ -1,0 +1,194 @@
+/**
+ * @file
+ * Positioning for a responsive layout.
+ *
+ * Define CSS classes to create a fluid grid layout with optional sidebars
+ * depending on whether blocks are placed in the left or right sidebars.
+ *
+ */
+
+@import "susybase";
+
+
+/* Containers for grid items and flow items. */
+#header,
+#navigation,
+#page,
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+  @include container();
+}
+
+/* Apply the shared properties of grid items in a single, efficient ruleset. */
+#header,
+#content,
+#navigation,
+.sidebar.first,
+.sideavr.second,
+#footer {
+}
+
+.no-sidebars {
+  #content {
+    @include span(full);
+  }
+}
+#header, #navigation {
+  .container {
+    @include span(full);
+  }
+}
+
+#footer {
+  padding: 5px;
+}
+
+/**
+ * Use 18 grid columns for larger screens.
+ */
+@media all and (max-width: 959px) {
+
+  /**
+   * The layout when there is only one sidebar, the left one.
+   */
+  .sidebar-first {
+    #content {
+      @include span(full);
+      padding: 0 5px !important;
+    }
+
+    #sidebar-first {
+      @include span(full);
+    }
+  }
+
+  /**
+   * The layout when there is only one sidebar, the right one.
+   */
+  .sidebar-second {
+    #content {
+      @include span(full);
+    }
+
+    .sidebar.second {
+      @include span(full);
+    }
+  }
+
+  /**
+   * The layout when there are two sidebars.
+   */
+  .two-sidebars {
+    #content {
+      @include span(full);
+    }
+
+    .sidebar.first {
+      @include span(full);
+    }
+
+    .sidebar.second {
+      @include span(full);
+    }
+  }
+
+  /**
+  *move elsewhere
+  */
+
+  .not-front {
+    #logo img {
+      height: 40px !important;
+    }
+    #site-name {
+      font-size: 14px;
+      margin-top: 10px;
+      text-indent: 10px;
+    }
+  }
+
+  /************************************************************
+* Galleries
+************************************************************/
+
+  $susy-nested-gallery: (
+          gutter-position:before,
+          gutters: .3,
+  );
+
+  @include with-layout($susy-nested-gallery) {
+    .grid-of-2 {
+      @include container();
+      @include span(full);
+      padding-bottom: 0;
+      .grid-item {
+        @include gallery(12 of 12);
+        margin-bottom: gutter(20);
+        box-sizing: border-box;
+        clear: both !important;
+      }
+    }
+
+    .grid-of-3 {
+      @include container();
+      @include span(full);
+      padding-bottom: 0;
+      .grid-item {
+        @include gallery(12 of 12);
+        margin-bottom: gutter(20);
+        clear: both !important;
+      }
+    }
+    .grid-of-4 {
+      @include container();
+      @include span(12 of 12);
+      padding-bottom: 0;
+      .grid-item {
+        @include gallery(6 of 12);
+        margin-bottom: gutter(10);
+      }
+    }
+    .grid-of-6 {
+      @include container();
+      @include span(12 of 12);
+      padding-bottom: 0;
+      .grid-item {
+        @include gallery(6 of 12);
+        margin-bottom: gutter(10);
+      }
+    }
+  }
+
+  /*
+  *Layout.
+  */
+  .menu {
+    width: 100%;
+    ul {
+      li{
+        display: block !important;
+      }
+    }
+  }
+  #site-name {
+    display: block;
+    clear: both;
+  }
+  .group-main-image {
+    text-align: center;
+    img {
+      width:90%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      height: auto;
+    }
+  }
+  .group-main-image, .group-product-details {
+    display: block;
+    width: 100% !important;
+    padding: 0 5px !important;
+  }
+
+}

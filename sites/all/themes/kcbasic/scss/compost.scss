@@ -303,3 +303,21 @@ h2.style {
   line-height: 140%;
 
 }
+
+.front {
+  #content-header {
+    .title {
+      display: none;
+    }
+
+  }
+}
+
+.get-yours {
+  padding: 31px 0;
+
+  a {
+    font-weight: normal;
+    text-decoration: underline;
+  }
+}

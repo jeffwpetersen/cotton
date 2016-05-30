@@ -341,3 +341,18 @@ h2.style {
   text-align: center;
   line-height: 140%;
 }
+
+/* line 309, ../scss/compost.scss */
+.front #content-header .title {
+  display: none;
+}
+
+/* line 316, ../scss/compost.scss */
+.get-yours {
+  padding: 31px 0;
+}
+/* line 319, ../scss/compost.scss */
+.get-yours a {
+  font-weight: normal;
+  text-decoration: underline;
+}
