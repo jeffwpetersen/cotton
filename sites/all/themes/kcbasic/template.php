@@ -302,3 +302,12 @@ function kcbasic_menu_local_tasks(&$variables) {
   }
   return $output;
 }
+
+/**
+ * Remove Height and Width Inline Styles from Drupal Images
+ */
+function kcbasic_preprocess_image(&$variables) {
+  foreach (array('width', 'height') as $key) {
+    unset($variables[$key]);
+  }
+}

@@ -356,3 +356,45 @@ h2.style {
   font-weight: normal;
   text-decoration: underline;
 }
+
+/*
+*Side Promos
+*/
+/* line 330, ../scss/compost.scss */
+.side-promo {
+  padding-top: 5px;
+}
+/* line 332, ../scss/compost.scss */
+.side-promo .promo {
+  padding-bottom: 31px;
+}
+/* line 335, ../scss/compost.scss */
+.side-promo .promo-box {
+  position: relative;
+}
+/* line 338, ../scss/compost.scss */
+.side-promo .promo-title {
+  position: absolute;
+  bottom: 0px;
+  padding: 7px 7px 15px 7px !important;
+  width: 100%;
+  font-weight: bold !important;
+  color: #000000;
+  line-height: 19px;
+}
+/* line 347, ../scss/compost.scss */
+.side-promo .promo-title-bg {
+  background-color: #ffffff;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0px;
+  padding: 7px 7px 15px 7px !important;
+  width: 100%;
+  font-weight: bold !important;
+  color: #ffffff;
+  line-height: 19px;
+}
+/* line 358, ../scss/compost.scss */
+.side-promo img {
+  width: 100% !important;
+}
