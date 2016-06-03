@@ -264,36 +264,41 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-tit
 }
 
 /* line 245, ../scss/compost.scss */
+.padding-top {
+  padding-top: 31px;
+}
+
+/* line 248, ../scss/compost.scss */
 .padding {
   padding: 31px;
 }
 
-/* line 249, ../scss/compost.scss */
+/* line 252, ../scss/compost.scss */
 .open-sans {
   font-family: "Open Sans" !important;
 }
 
-/* line 252, ../scss/compost.scss */
+/* line 255, ../scss/compost.scss */
 .olive {
   color: #0a2b1d !important;
 }
 
-/* line 255, ../scss/compost.scss */
+/* line 258, ../scss/compost.scss */
 .green {
   color: #86b622;
 }
 
-/* line 258, ../scss/compost.scss */
+/* line 261, ../scss/compost.scss */
 .black {
   color: #000000;
 }
 
-/* line 261, ../scss/compost.scss */
+/* line 264, ../scss/compost.scss */
 .gray {
   color: #494949;
 }
 
-/* line 265, ../scss/compost.scss */
+/* line 268, ../scss/compost.scss */
 h1.style {
   font-family: "Open Sans";
   text-transform: uppercase;
@@ -304,7 +309,7 @@ h1.style {
   line-height: 98%;
 }
 
-/* line 274, ../scss/compost.scss */
+/* line 277, ../scss/compost.scss */
 h2.style {
   font-family: "Open Sans";
   text-transform: normal;
@@ -314,14 +319,14 @@ h2.style {
   letter-spacing: normal !important;
 }
 
-/* line 282, ../scss/compost.scss */
+/* line 285, ../scss/compost.scss */
 .break {
   height: 12px;
   background-color: #f2c53a;
   clear: both;
 }
 
-/* line 287, ../scss/compost.scss */
+/* line 290, ../scss/compost.scss */
 .bold-block {
   font-weight: bold !important;
   text-transform: uppercase !important;
@@ -329,7 +334,7 @@ h2.style {
   color: #494949;
 }
 
-/* line 294, ../scss/compost.scss */
+/* line 297, ../scss/compost.scss */
 .callout {
   background-color: #86b622;
   color: #ffffff;
@@ -342,16 +347,16 @@ h2.style {
   line-height: 140%;
 }
 
-/* line 309, ../scss/compost.scss */
+/* line 312, ../scss/compost.scss */
 .front #content-header .title {
   display: none;
 }
 
-/* line 316, ../scss/compost.scss */
+/* line 319, ../scss/compost.scss */
 .get-yours {
   padding: 31px 0;
 }
-/* line 319, ../scss/compost.scss */
+/* line 322, ../scss/compost.scss */
 .get-yours a {
   font-weight: normal;
   text-decoration: underline;
@@ -360,19 +365,19 @@ h2.style {
 /*
 *Side Promos
 */
-/* line 330, ../scss/compost.scss */
+/* line 333, ../scss/compost.scss */
 .side-promo {
   padding-top: 5px;
 }
-/* line 332, ../scss/compost.scss */
+/* line 335, ../scss/compost.scss */
 .side-promo .promo {
   padding-bottom: 31px;
 }
-/* line 335, ../scss/compost.scss */
+/* line 338, ../scss/compost.scss */
 .side-promo .promo-box {
   position: relative;
 }
-/* line 338, ../scss/compost.scss */
+/* line 341, ../scss/compost.scss */
 .side-promo .promo-title {
   position: absolute;
   bottom: 0px;
@@ -382,7 +387,7 @@ h2.style {
   color: #000000;
   line-height: 19px;
 }
-/* line 347, ../scss/compost.scss */
+/* line 350, ../scss/compost.scss */
 .side-promo .promo-title-bg {
   background-color: #ffffff;
   opacity: 0.7;
@@ -394,7 +399,7 @@ h2.style {
   color: #ffffff;
   line-height: 19px;
 }
-/* line 358, ../scss/compost.scss */
+/* line 361, ../scss/compost.scss */
 .side-promo img {
   width: 100% !important;
 }

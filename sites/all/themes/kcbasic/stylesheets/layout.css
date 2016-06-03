@@ -656,6 +656,25 @@
     width: 100% !important;
     padding: 0 5px !important;
   }
+
+  /* line 194, ../scss/layouts/_tablet.scss */
+  .group-product-details {
+    padding: 5px;
+    margin: 5px !important;
+    float: none;
+    clear: both;
+  }
+
+  /* line 201, ../scss/layouts/_tablet.scss */
+  #footer {
+    padding: 0 0 20px 20px !important;
+    margin-bottom: 30px;
+  }
+
+  /* line 206, ../scss/layouts/_tablet.scss */
+  #block-menu-menu-footer-navigation ul.menu li {
+    clear: both !important;
+  }
 }
 /* line 7, ../scss/layout.scss */
 #header-full {
