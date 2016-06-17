@@ -264,6 +264,9 @@ div.messages.commerce-add-to-cart-confirmation {
 .gray {
   color: #494949;
 }
+.relative {
+  position: relative;
+}
 
 h1.style {
   font-family: "Open Sans";
@@ -313,6 +316,30 @@ h2.style {
       display: none;
     }
 
+  }
+  .front-3 {
+    margin: 31px 0;
+    .grid-item {
+      img {
+        border: solid 1px gray;
+        display:block;
+      }
+    }
+  }
+  .call-to-action {
+    position: absolute;
+    bottom: 31px;
+    right: 31px;
+    background-color: #0a2b1d;
+    color: #fff;
+    font-family: "Open Sans";
+    border-radius: 5px;
+    border-bottom: solid 2px #f2c53a;
+    a {
+      color: #fff;
+      font-family: "Open Sans";
+      padding: 10px 31px;
+    }
   }
 }
 
