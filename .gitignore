@@ -1,16 +1,6 @@
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
 
-# Ignore paths that contain user-generated content..
+# Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
-sites/all/themes/kcbasic/.sass-cache
-sites/all/themes/kcbasic/images/header_image.png
-*/.DS_Store
-*/_notes
-*/.swp
-.DS_Store
-.idea
-*/.idea
-files
-*/files
