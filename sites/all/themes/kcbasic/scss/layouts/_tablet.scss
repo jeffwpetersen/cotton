@@ -6,13 +6,11 @@
  * depending on whether blocks are placed in the left or right sidebars.
  *
  */
-
 @import "susybase";
 
 html {
   font-size: 4vw;
 }
-
 
 /* Containers for grid items and flow items. */
 #header,
@@ -38,6 +36,7 @@ html {
     @include span(full);
   }
 }
+
 #header, #navigation {
   .container {
     @include span(full);
@@ -53,7 +52,6 @@ html {
  * Use 18 grid columns for larger screens.
  */
 @media all and (max-width: 959px) {
-
 
   /**
    * The layout when there is only one sidebar, the left one.
@@ -114,7 +112,6 @@ html {
     }
   }
 
-
   /************************************************************
 * Galleries
 ************************************************************/
@@ -171,23 +168,23 @@ html {
   *Layout.
   */
   #block-system-main-menu {
-      ul.menu {
-        width: 100%;
-        li {
-          display: block !important;
-          background-color: #FFF !important;
-          text-align: center !important;
-          border-bottom: 1px solid #0a2b1d;
-          a {
-            color: #0a2b1d !important;
-            font-size: .8em;
-            padding: 10px 0 !important;
-          }
-          a.active {
-            color: #FFF !important;
-            background-color: #576240 !important;
-          }
+    ul.menu {
+      width: 100%;
+      li {
+        display: block !important;
+        background-color: #FFF !important;
+        text-align: center !important;
+        border-bottom: 1px solid #0a2b1d;
+        a {
+          color: #0a2b1d !important;
+          font-size: .8em;
+          padding: 10px 0 !important;
         }
+        a.active {
+          color: #FFF !important;
+          background-color: #576240 !important;
+        }
+      }
     }
   }
   #site-name {
@@ -227,17 +224,22 @@ html {
   }
 
   .bold-block {
-    font-size:15px !important;
+    font-size: 15px !important;
   }
 
-.callout {
-  font-size: 25px !important;
-}
+  .callout {
+    font-size: 25px !important;
+  }
 
   #content .quote {
     margin: 20px 0 !important;
     font-size: .9em;
   }
-
+  h1.style {
+    font-size: 5.8vw !important;
+  }
+  h2.style {
+    font-size: 4.1vw !important;
+  }
 
 }
