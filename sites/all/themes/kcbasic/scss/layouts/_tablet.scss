@@ -9,6 +9,10 @@
 
 @import "susybase";
 
+html {
+  font-size: 4vw;
+}
+
 
 /* Containers for grid items and flow items. */
 #header,
@@ -49,6 +53,7 @@
  * Use 18 grid columns for larger screens.
  */
 @media all and (max-width: 959px) {
+
 
   /**
    * The layout when there is only one sidebar, the left one.
@@ -109,6 +114,7 @@
     }
   }
 
+
   /************************************************************
 * Galleries
 ************************************************************/
@@ -164,12 +170,24 @@
   /*
   *Layout.
   */
-  .menu {
-    width: 100%;
-    ul {
-      li {
-        display: block !important;
-      }
+  #block-system-main-menu {
+      ul.menu {
+        width: 100%;
+        li {
+          display: block !important;
+          background-color: #FFF !important;
+          text-align: center !important;
+          border-bottom: 1px solid #0a2b1d;
+          a {
+            color: #0a2b1d !important;
+            font-size: .8em;
+            padding: 10px 0 !important;
+          }
+          a.active {
+            color: #FFF !important;
+            background-color: #576240 !important;
+          }
+        }
     }
   }
   #site-name {
@@ -206,6 +224,19 @@
 
   #block-menu-menu-footer-navigation ul.menu li {
     clear: both !important;
+  }
+
+  .bold-block {
+    font-size:15px !important;
+  }
+
+.callout {
+  font-size: 25px !important;
+}
+
+  #content .quote {
+    margin: 20px 0 !important;
+    font-size: .9em;
   }
 
 

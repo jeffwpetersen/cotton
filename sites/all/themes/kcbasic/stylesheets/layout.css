@@ -355,8 +355,13 @@
  * depending on whether blocks are placed in the left or right sidebars.
  *
  */
+/* line 12, ../scss/layouts/_tablet.scss */
+html {
+  font-size: 4vw;
+}
+
 /* Containers for grid items and flow items. */
-/* line 14, ../scss/layouts/_tablet.scss */
+/* line 18, ../scss/layouts/_tablet.scss */
 #header,
 #navigation,
 #page,
@@ -378,7 +383,7 @@
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
-/* line 33, ../scss/layouts/_tablet.scss */
+/* line 37, ../scss/layouts/_tablet.scss */
 .no-sidebars #content {
   width: 94.62366%;
   float: left;
@@ -386,7 +391,7 @@
   margin-right: 2.68817%;
 }
 
-/* line 38, ../scss/layouts/_tablet.scss */
+/* line 42, ../scss/layouts/_tablet.scss */
 #header .container, #navigation .container {
   width: 94.62366%;
   float: left;
@@ -395,7 +400,7 @@
   position: relative;
 }
 
-/* line 44, ../scss/layouts/_tablet.scss */
+/* line 48, ../scss/layouts/_tablet.scss */
 #footer {
   padding: 5px;
 }
@@ -407,7 +412,7 @@
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 57, ../scss/layouts/_tablet.scss */
+  /* line 62, ../scss/layouts/_tablet.scss */
   .sidebar-first #content {
     width: 94.62366%;
     float: left;
@@ -415,7 +420,7 @@
     margin-right: 2.68817%;
     padding: 0 5px !important;
   }
-  /* line 62, ../scss/layouts/_tablet.scss */
+  /* line 67, ../scss/layouts/_tablet.scss */
   .sidebar-first #sidebar-first {
     width: 94.62366%;
     float: left;
@@ -426,14 +431,14 @@
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 71, ../scss/layouts/_tablet.scss */
+  /* line 76, ../scss/layouts/_tablet.scss */
   .sidebar-second #content {
     width: 94.62366%;
     float: left;
     margin-left: 2.68817%;
     margin-right: 2.68817%;
   }
-  /* line 75, ../scss/layouts/_tablet.scss */
+  /* line 80, ../scss/layouts/_tablet.scss */
   .sidebar-second .sidebar.second {
     width: 94.62366%;
     float: left;
@@ -444,21 +449,21 @@
   /**
    * The layout when there are two sidebars.
    */
-  /* line 84, ../scss/layouts/_tablet.scss */
+  /* line 89, ../scss/layouts/_tablet.scss */
   .two-sidebars #content {
     width: 94.62366%;
     float: left;
     margin-left: 2.68817%;
     margin-right: 2.68817%;
   }
-  /* line 88, ../scss/layouts/_tablet.scss */
+  /* line 93, ../scss/layouts/_tablet.scss */
   .two-sidebars .sidebar.first {
     width: 94.62366%;
     float: left;
     margin-left: 2.68817%;
     margin-right: 2.68817%;
   }
-  /* line 92, ../scss/layouts/_tablet.scss */
+  /* line 97, ../scss/layouts/_tablet.scss */
   .two-sidebars .sidebar.second {
     width: 94.62366%;
     float: left;
@@ -469,11 +474,11 @@
   /**
   *move elsewhere
   */
-  /* line 102, ../scss/layouts/_tablet.scss */
+  /* line 107, ../scss/layouts/_tablet.scss */
   .not-front #logo img {
     height: 40px !important;
   }
-  /* line 105, ../scss/layouts/_tablet.scss */
+  /* line 110, ../scss/layouts/_tablet.scss */
   .not-front #site-name {
     font-size: 14px;
     margin-top: 10px;
@@ -483,7 +488,7 @@
   /************************************************************
 * Galleries
 ************************************************************/
-  /* line 122, ../scss/layouts/_tablet.scss */
+  /* line 128, ../scss/layouts/_tablet.scss */
   .grid-of-2 {
     max-width: 100%;
     margin-left: auto;
@@ -500,7 +505,7 @@
     display: block;
     clear: both;
   }
-  /* line 126, ../scss/layouts/_tablet.scss */
+  /* line 132, ../scss/layouts/_tablet.scss */
   .grid-of-2 .grid-item {
     width: 100%;
     float: left;
@@ -515,7 +520,7 @@
     clear: none;
   }
 
-  /* line 134, ../scss/layouts/_tablet.scss */
+  /* line 140, ../scss/layouts/_tablet.scss */
   .grid-of-3 {
     max-width: 100%;
     margin-left: auto;
@@ -532,7 +537,7 @@
     display: block;
     clear: both;
   }
-  /* line 138, ../scss/layouts/_tablet.scss */
+  /* line 144, ../scss/layouts/_tablet.scss */
   .grid-of-3 .grid-item {
     width: 100%;
     float: left;
@@ -546,7 +551,7 @@
     clear: none;
   }
 
-  /* line 144, ../scss/layouts/_tablet.scss */
+  /* line 150, ../scss/layouts/_tablet.scss */
   .grid-of-4 {
     max-width: 100%;
     margin-left: auto;
@@ -563,7 +568,7 @@
     display: block;
     clear: both;
   }
-  /* line 148, ../scss/layouts/_tablet.scss */
+  /* line 154, ../scss/layouts/_tablet.scss */
   .grid-of-4 .grid-item {
     width: 49.01961%;
     float: left;
@@ -583,7 +588,7 @@
     clear: none;
   }
 
-  /* line 153, ../scss/layouts/_tablet.scss */
+  /* line 159, ../scss/layouts/_tablet.scss */
   .grid-of-6 {
     max-width: 100%;
     margin-left: auto;
@@ -600,7 +605,7 @@
     display: block;
     clear: both;
   }
-  /* line 157, ../scss/layouts/_tablet.scss */
+  /* line 163, ../scss/layouts/_tablet.scss */
   .grid-of-6 .grid-item {
     width: 49.01961%;
     float: left;
@@ -623,26 +628,40 @@
   /*
   *Layout.
   */
-  /* line 167, ../scss/layouts/_tablet.scss */
-  .menu {
+  /* line 174, ../scss/layouts/_tablet.scss */
+  #block-system-main-menu ul.menu {
     width: 100%;
   }
-  /* line 170, ../scss/layouts/_tablet.scss */
-  .menu ul li {
+  /* line 176, ../scss/layouts/_tablet.scss */
+  #block-system-main-menu ul.menu li {
     display: block !important;
+    background-color: #FFF !important;
+    text-align: center !important;
+    border-bottom: 1px solid #0a2b1d;
+  }
+  /* line 181, ../scss/layouts/_tablet.scss */
+  #block-system-main-menu ul.menu li a {
+    color: #0a2b1d !important;
+    font-size: .8em;
+    padding: 10px 0 !important;
+  }
+  /* line 186, ../scss/layouts/_tablet.scss */
+  #block-system-main-menu ul.menu li a.active {
+    color: #FFF !important;
+    background-color: #576240 !important;
   }
 
-  /* line 175, ../scss/layouts/_tablet.scss */
+  /* line 193, ../scss/layouts/_tablet.scss */
   #site-name {
     display: block;
     clear: both;
   }
 
-  /* line 179, ../scss/layouts/_tablet.scss */
+  /* line 197, ../scss/layouts/_tablet.scss */
   .group-main-image {
     text-align: center;
   }
-  /* line 181, ../scss/layouts/_tablet.scss */
+  /* line 199, ../scss/layouts/_tablet.scss */
   .group-main-image img {
     width: 90%;
     margin-left: auto;
@@ -651,14 +670,14 @@
     height: auto;
   }
 
-  /* line 189, ../scss/layouts/_tablet.scss */
+  /* line 207, ../scss/layouts/_tablet.scss */
   .group-main-image, .group-product-details {
     display: block;
     width: 100% !important;
     padding: 0 5px !important;
   }
 
-  /* line 195, ../scss/layouts/_tablet.scss */
+  /* line 213, ../scss/layouts/_tablet.scss */
   .group-product-details {
     padding: 5px;
     margin: 5px !important;
@@ -666,15 +685,31 @@
     clear: both;
   }
 
-  /* line 202, ../scss/layouts/_tablet.scss */
+  /* line 220, ../scss/layouts/_tablet.scss */
   #footer {
     padding: 0 0 20px 20px !important;
     margin-bottom: 30px;
   }
 
-  /* line 207, ../scss/layouts/_tablet.scss */
+  /* line 225, ../scss/layouts/_tablet.scss */
   #block-menu-menu-footer-navigation ul.menu li {
     clear: both !important;
+  }
+
+  /* line 229, ../scss/layouts/_tablet.scss */
+  .bold-block {
+    font-size: 15px !important;
+  }
+
+  /* line 233, ../scss/layouts/_tablet.scss */
+  .callout {
+    font-size: 25px !important;
+  }
+
+  /* line 237, ../scss/layouts/_tablet.scss */
+  #content .quote {
+    margin: 20px 0 !important;
+    font-size: .9em;
   }
 }
 /* line 7, ../scss/layout.scss */
