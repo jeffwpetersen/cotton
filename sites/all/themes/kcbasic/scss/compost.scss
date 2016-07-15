@@ -3,7 +3,8 @@
 #site-name {
   position: absolute;
   top:-100%;
-  right: -100%;
+  left: -100%;
+  float: left;
 }
 
 #content {
