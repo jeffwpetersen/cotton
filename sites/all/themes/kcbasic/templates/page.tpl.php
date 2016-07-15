@@ -5,7 +5,8 @@
     <div class="container">
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
+          <!-- <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/> -->
+          <img src="/sites/all/themes/kcbasic/compost_hero_leaf_composting_wrap.png" alt="Compost Hero Home"/>
         </a>
         <div id="site-name">
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a>

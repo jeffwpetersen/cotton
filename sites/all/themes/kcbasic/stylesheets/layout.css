@@ -125,19 +125,13 @@
   */
   /* line 96, ../scss/layouts/_desk.scss */
   .not-front #logo img {
-    height: 40px !important;
-  }
-  /* line 99, ../scss/layouts/_desk.scss */
-  .not-front #site-name {
-    font-size: 14px;
-    margin-top: 10px;
-    text-indent: 10px;
+    width: 60% !important;
   }
 
   /************************************************************
 * Galleries
 ************************************************************/
-  /* line 120, ../scss/layouts/_desk.scss */
+  /* line 116, ../scss/layouts/_desk.scss */
   .grid-of-2 {
     max-width: 100%;
     margin-left: auto;
@@ -154,7 +148,7 @@
     display: block;
     clear: both;
   }
-  /* line 124, ../scss/layouts/_desk.scss */
+  /* line 120, ../scss/layouts/_desk.scss */
   .grid-of-2 .grid-item {
     width: 49.01961%;
     float: left;
@@ -175,7 +169,7 @@
     clear: none;
   }
 
-  /* line 131, ../scss/layouts/_desk.scss */
+  /* line 127, ../scss/layouts/_desk.scss */
   .grid-of-3 {
     max-width: 100%;
     margin-left: auto;
@@ -192,7 +186,7 @@
     display: block;
     clear: both;
   }
-  /* line 135, ../scss/layouts/_desk.scss */
+  /* line 131, ../scss/layouts/_desk.scss */
   .grid-of-3 .grid-item {
     width: 32.02614%;
     float: left;
@@ -218,7 +212,7 @@
     clear: none;
   }
 
-  /* line 140, ../scss/layouts/_desk.scss */
+  /* line 136, ../scss/layouts/_desk.scss */
   .grid-of-4 {
     max-width: 100%;
     margin-left: auto;
@@ -235,7 +229,7 @@
     display: block;
     clear: both;
   }
-  /* line 144, ../scss/layouts/_desk.scss */
+  /* line 140, ../scss/layouts/_desk.scss */
   .grid-of-4 .grid-item {
     width: 23.52941%;
     float: left;
@@ -267,7 +261,7 @@
     clear: none;
   }
 
-  /* line 149, ../scss/layouts/_desk.scss */
+  /* line 145, ../scss/layouts/_desk.scss */
   .grid-of-6 {
     max-width: 100%;
     margin-left: auto;
@@ -284,7 +278,7 @@
     display: block;
     clear: both;
   }
-  /* line 153, ../scss/layouts/_desk.scss */
+  /* line 149, ../scss/layouts/_desk.scss */
   .grid-of-6 .grid-item {
     width: 15.03268%;
     float: left;
@@ -331,7 +325,7 @@
 /*****************************
 /* product pages display groups
 /***********/
-/* line 167, ../scss/layouts/_desk.scss */
+/* line 163, ../scss/layouts/_desk.scss */
 .group-product-details {
   width: 50.17921%;
   float: right;
@@ -339,7 +333,7 @@
   margin-right: 2.68817%;
 }
 
-/* line 170, ../scss/layouts/_desk.scss */
+/* line 166, ../scss/layouts/_desk.scss */
 .group-main-image {
   width: 39.0681%;
   float: left;
@@ -474,11 +468,7 @@ html {
   /**
   *move elsewhere
   */
-  /* line 105, ../scss/layouts/_tablet.scss */
-  .not-front #logo img {
-    height: 40px !important;
-  }
-  /* line 108, ../scss/layouts/_tablet.scss */
+  /* line 107, ../scss/layouts/_tablet.scss */
   .not-front #site-name {
     font-size: 14px;
     margin-top: 10px;
@@ -488,7 +478,7 @@ html {
   /************************************************************
 * Galleries
 ************************************************************/
-  /* line 125, ../scss/layouts/_tablet.scss */
+  /* line 124, ../scss/layouts/_tablet.scss */
   .grid-of-2 {
     max-width: 100%;
     margin-left: auto;
@@ -505,7 +495,7 @@ html {
     display: block;
     clear: both;
   }
-  /* line 129, ../scss/layouts/_tablet.scss */
+  /* line 128, ../scss/layouts/_tablet.scss */
   .grid-of-2 .grid-item {
     width: 100%;
     float: left;
@@ -520,7 +510,7 @@ html {
     clear: none;
   }
 
-  /* line 137, ../scss/layouts/_tablet.scss */
+  /* line 136, ../scss/layouts/_tablet.scss */
   .grid-of-3 {
     max-width: 100%;
     margin-left: auto;
@@ -537,7 +527,7 @@ html {
     display: block;
     clear: both;
   }
-  /* line 141, ../scss/layouts/_tablet.scss */
+  /* line 140, ../scss/layouts/_tablet.scss */
   .grid-of-3 .grid-item {
     width: 100%;
     float: left;
@@ -551,7 +541,7 @@ html {
     clear: none;
   }
 
-  /* line 147, ../scss/layouts/_tablet.scss */
+  /* line 146, ../scss/layouts/_tablet.scss */
   .grid-of-4 {
     max-width: 100%;
     margin-left: auto;
@@ -568,7 +558,7 @@ html {
     display: block;
     clear: both;
   }
-  /* line 151, ../scss/layouts/_tablet.scss */
+  /* line 150, ../scss/layouts/_tablet.scss */
   .grid-of-4 .grid-item {
     width: 49.01961%;
     float: left;
@@ -588,7 +578,7 @@ html {
     clear: none;
   }
 
-  /* line 156, ../scss/layouts/_tablet.scss */
+  /* line 155, ../scss/layouts/_tablet.scss */
   .grid-of-6 {
     max-width: 100%;
     margin-left: auto;
@@ -605,7 +595,7 @@ html {
     display: block;
     clear: both;
   }
-  /* line 160, ../scss/layouts/_tablet.scss */
+  /* line 159, ../scss/layouts/_tablet.scss */
   .grid-of-6 .grid-item {
     width: 49.01961%;
     float: left;
@@ -628,40 +618,40 @@ html {
   /*
   *Layout.
   */
-  /* line 171, ../scss/layouts/_tablet.scss */
+  /* line 170, ../scss/layouts/_tablet.scss */
   #block-system-main-menu ul.menu {
     width: 100%;
   }
-  /* line 173, ../scss/layouts/_tablet.scss */
+  /* line 172, ../scss/layouts/_tablet.scss */
   #block-system-main-menu ul.menu li {
     display: block !important;
     background-color: #FFF !important;
     text-align: center !important;
     border-bottom: 1px solid #0a2b1d;
   }
-  /* line 178, ../scss/layouts/_tablet.scss */
+  /* line 177, ../scss/layouts/_tablet.scss */
   #block-system-main-menu ul.menu li a {
     color: #0a2b1d !important;
     font-size: .8em;
     padding: 10px 0 !important;
   }
-  /* line 183, ../scss/layouts/_tablet.scss */
+  /* line 182, ../scss/layouts/_tablet.scss */
   #block-system-main-menu ul.menu li a.active {
     color: #FFF !important;
     background-color: #576240 !important;
   }
 
-  /* line 190, ../scss/layouts/_tablet.scss */
+  /* line 189, ../scss/layouts/_tablet.scss */
   #site-name {
     display: block;
     clear: both;
   }
 
-  /* line 194, ../scss/layouts/_tablet.scss */
+  /* line 193, ../scss/layouts/_tablet.scss */
   .group-main-image {
     text-align: center;
   }
-  /* line 196, ../scss/layouts/_tablet.scss */
+  /* line 195, ../scss/layouts/_tablet.scss */
   .group-main-image img {
     width: 90%;
     margin-left: auto;
@@ -670,14 +660,14 @@ html {
     height: auto;
   }
 
-  /* line 204, ../scss/layouts/_tablet.scss */
+  /* line 203, ../scss/layouts/_tablet.scss */
   .group-main-image, .group-product-details {
     display: block;
     width: 100% !important;
     padding: 0 5px !important;
   }
 
-  /* line 210, ../scss/layouts/_tablet.scss */
+  /* line 209, ../scss/layouts/_tablet.scss */
   .group-product-details {
     padding: 5px;
     margin: 5px !important;
@@ -685,39 +675,39 @@ html {
     clear: both;
   }
 
-  /* line 217, ../scss/layouts/_tablet.scss */
+  /* line 216, ../scss/layouts/_tablet.scss */
   #footer {
     padding: 0 0 20px 20px !important;
     margin-bottom: 30px;
   }
 
-  /* line 222, ../scss/layouts/_tablet.scss */
+  /* line 221, ../scss/layouts/_tablet.scss */
   #block-menu-menu-footer-navigation ul.menu li {
     clear: both !important;
   }
 
-  /* line 226, ../scss/layouts/_tablet.scss */
+  /* line 225, ../scss/layouts/_tablet.scss */
   .bold-block {
     font-size: 15px !important;
   }
 
-  /* line 230, ../scss/layouts/_tablet.scss */
+  /* line 229, ../scss/layouts/_tablet.scss */
   .callout {
     font-size: 25px !important;
   }
 
-  /* line 234, ../scss/layouts/_tablet.scss */
+  /* line 233, ../scss/layouts/_tablet.scss */
   #content .quote {
     margin: 20px 0 !important;
     font-size: .9em;
   }
 
-  /* line 238, ../scss/layouts/_tablet.scss */
+  /* line 237, ../scss/layouts/_tablet.scss */
   h1.style {
     font-size: 5.8vw !important;
   }
 
-  /* line 241, ../scss/layouts/_tablet.scss */
+  /* line 240, ../scss/layouts/_tablet.scss */
   h2.style {
     font-size: 4.1vw !important;
   }
@@ -752,7 +742,7 @@ html {
 /* line 11, ../scss/layout.scss */
 #header {
   background-color: #ffffeb;
-  margin-top: 10px;
+  padding: 20px 0px;
 }
 
 /* line 12, ../scss/layout.scss */

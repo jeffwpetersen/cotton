@@ -1,5 +1,11 @@
 @import "base";
 
+#site-name {
+  position: absolute;
+  top:-100%;
+  right: -100%;
+}
+
 #content {
   font-family: $noto;
   -webkit-box-sizing: border-box;
