@@ -41,18 +41,18 @@
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
 /* line 33, ../scss/layouts/_desk.scss */
 .no-sidebars #content {
-  width: 94.62366%;
+  width: 97.91667%;
   float: left;
-  margin-left: 2.68817%;
-  margin-right: 2.68817%;
+  margin-left: 1.04167%;
+  margin-right: 1.04167%;
 }
 
 /* line 38, ../scss/layouts/_desk.scss */
 #header .container, #navigation .container {
-  width: 94.62366%;
+  width: 97.91667%;
   float: left;
-  margin-left: 2.68817%;
-  margin-right: 2.68817%;
+  margin-left: 1.04167%;
+  margin-right: 1.04167%;
 }
 
 /**
@@ -64,17 +64,17 @@
    */
   /* line 52, ../scss/layouts/_desk.scss */
   .sidebar-first #content {
-    width: 66.84588%;
+    width: 70.13889%;
     float: right;
-    margin-left: 2.68817%;
-    margin-right: 2.68817%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
   }
   /* line 56, ../scss/layouts/_desk.scss */
   .sidebar-first #sidebar-first {
-    width: 22.40143%;
+    width: 25.69444%;
     float: left;
-    margin-left: 2.68817%;
-    margin-right: 2.68817%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
   }
 
   /**
@@ -82,16 +82,16 @@
    */
   /* line 65, ../scss/layouts/_desk.scss */
   .sidebar-second #content {
-    width: 50.17921%;
+    width: 53.47222%;
     float: left;
-    margin-left: 8.24373%;
+    margin-left: 6.59722%;
     margin-right: -100%;
   }
   /* line 69, ../scss/layouts/_desk.scss */
   .sidebar-second .sidebar.second {
-    width: 25.17921%;
+    width: 28.47222%;
     float: left;
-    margin-left: 69.35484%;
+    margin-left: 67.70833%;
     margin-right: -100%;
   }
 
@@ -100,24 +100,24 @@
    */
   /* line 78, ../scss/layouts/_desk.scss */
   .two-sidebars #content {
-    width: 50.17921%;
+    width: 53.47222%;
     float: left;
-    margin-left: 24.91039%;
+    margin-left: 23.26389%;
     margin-right: -100%;
   }
   /* line 82, ../scss/layouts/_desk.scss */
   .two-sidebars .sidebar.first {
-    width: 16.84588%;
+    width: 20.13889%;
     float: left;
-    margin-left: 2.68817%;
-    margin-right: 2.68817%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
   }
   /* line 86, ../scss/layouts/_desk.scss */
   .two-sidebars .sidebar.second {
-    width: 16.84588%;
+    width: 20.13889%;
     float: right;
-    margin-left: 2.68817%;
-    margin-right: 2.68817%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
   }
 
   /**
@@ -327,18 +327,18 @@
 /***********/
 /* line 163, ../scss/layouts/_desk.scss */
 .group-product-details {
-  width: 50.17921%;
+  width: 53.47222%;
   float: right;
-  margin-left: 2.68817%;
-  margin-right: 2.68817%;
+  margin-left: 1.04167%;
+  margin-right: 1.04167%;
 }
 
 /* line 166, ../scss/layouts/_desk.scss */
 .group-main-image {
-  width: 39.0681%;
+  width: 42.36111%;
   float: left;
-  margin-left: 2.68817%;
-  margin-right: 2.68817%;
+  margin-left: 1.04167%;
+  margin-right: 1.04167%;
 }
 
 /**
@@ -379,18 +379,18 @@ html {
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
 /* line 35, ../scss/layouts/_tablet.scss */
 .no-sidebars #content {
-  width: 94.62366%;
+  width: 97.91667%;
   float: left;
-  margin-left: 2.68817%;
-  margin-right: 2.68817%;
+  margin-left: 1.04167%;
+  margin-right: 1.04167%;
 }
 
 /* line 41, ../scss/layouts/_tablet.scss */
 #header .container, #navigation .container {
-  width: 94.62366%;
+  width: 97.91667%;
   float: left;
-  margin-left: 2.68817%;
-  margin-right: 2.68817%;
+  margin-left: 1.04167%;
+  margin-right: 1.04167%;
   position: relative;
 }
 
@@ -408,18 +408,18 @@ html {
    */
   /* line 60, ../scss/layouts/_tablet.scss */
   .sidebar-first #content {
-    width: 94.62366%;
+    width: 97.91667%;
     float: left;
-    margin-left: 2.68817%;
-    margin-right: 2.68817%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
     padding: 0 5px !important;
   }
   /* line 65, ../scss/layouts/_tablet.scss */
   .sidebar-first #sidebar-first {
-    width: 94.62366%;
+    width: 97.91667%;
     float: left;
-    margin-left: 2.68817%;
-    margin-right: 2.68817%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
   }
 
   /**
@@ -427,17 +427,17 @@ html {
    */
   /* line 74, ../scss/layouts/_tablet.scss */
   .sidebar-second #content {
-    width: 94.62366%;
+    width: 97.91667%;
     float: left;
-    margin-left: 2.68817%;
-    margin-right: 2.68817%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
   }
   /* line 78, ../scss/layouts/_tablet.scss */
   .sidebar-second .sidebar.second {
-    width: 94.62366%;
+    width: 97.91667%;
     float: left;
-    margin-left: 2.68817%;
-    margin-right: 2.68817%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
   }
 
   /**
@@ -445,24 +445,24 @@ html {
    */
   /* line 87, ../scss/layouts/_tablet.scss */
   .two-sidebars #content {
-    width: 94.62366%;
+    width: 97.91667%;
     float: left;
-    margin-left: 2.68817%;
-    margin-right: 2.68817%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
   }
   /* line 91, ../scss/layouts/_tablet.scss */
   .two-sidebars .sidebar.first {
-    width: 94.62366%;
+    width: 97.91667%;
     float: left;
-    margin-left: 2.68817%;
-    margin-right: 2.68817%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
   }
   /* line 95, ../scss/layouts/_tablet.scss */
   .two-sidebars .sidebar.second {
-    width: 94.62366%;
+    width: 97.91667%;
     float: left;
-    margin-left: 2.68817%;
-    margin-right: 2.68817%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
   }
 
   /**
@@ -765,7 +765,7 @@ html {
 #navigation,
 #page,
 #footer {
-  max-width: 1800px;
+  max-width: 1548px;
 }
 
 /* line 23, ../scss/layout.scss */
@@ -823,7 +823,7 @@ html {
   color: #fff;
   font-size: 1em;
   display: block;
-  padding: 20px 30px;
+  padding: 13px 30px;
   text-decoration: none;
   font-size: 1.2em;
   letter-spacing: .1em;
