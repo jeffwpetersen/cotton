@@ -721,7 +721,7 @@ html {
 /* line 8, ../scss/layout.scss */
 #navigation-full {
   background-color: #576240;
-  border-bottom: solid 5px #aec380;
+  border-bottom: solid 7px #aec380;
   border-top: solid 1px #483e0e;
 }
 
@@ -765,7 +765,7 @@ html {
 #navigation,
 #page,
 #footer {
-  max-width: 1548px;
+  max-width: 1556px;
 }
 
 /* line 23, ../scss/layout.scss */
