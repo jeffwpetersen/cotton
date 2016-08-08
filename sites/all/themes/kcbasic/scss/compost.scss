@@ -59,9 +59,25 @@
     clear: both;
     margin-bottom: 50px;
     padding-bottom: 40px;
-    border-bottom: 1px solid green;
+    border-bottom: 8px solid #f2c53a;
   }
 
+}
+
+.page-blog {
+  #content-header .title {
+    display:none;
+  }
+  .field-name-title-field h1 {
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: #576240;
+    font-weight: bold;
+    font-size:2.1vw;
+    letter-spacing: normal !important;
+    line-height: 98%;
+
+  }
 }
 
 .views-row:after {
@@ -396,3 +412,5 @@ h2.style {
    width: 100% !important;
  }
 }
+
+

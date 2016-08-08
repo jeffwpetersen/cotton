@@ -711,11 +711,15 @@ html {
   h2.style {
     font-size: 4.1vw !important;
   }
+
+  /* line 245, ../scss/layouts/_tablet.scss */
+  .page-blog .field-name-title-field h1 {
+    font-size: 24px !important;
+  }
 }
 /* line 7, ../scss/layout.scss */
 #header-full {
   background-color: #ffffeb;
-  padding-top: 10px;
 }
 
 /* line 8, ../scss/layout.scss */
