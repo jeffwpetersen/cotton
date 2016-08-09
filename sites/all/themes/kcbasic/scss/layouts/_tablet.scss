@@ -247,4 +247,16 @@ html {
     }
   }
 
+  div.messages.commerce-add-to-cart-confirmation {
+    left: 0 !important;
+    width:98% !important;
+    margin: 0 1% !important;
+  }
+  div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
+    position: relative;
+    width:100%;
+    display: block !important;
+    clear: both !important;
+  }
+
 }

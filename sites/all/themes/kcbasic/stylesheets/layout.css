@@ -716,6 +716,21 @@ html {
   .page-blog .field-name-title-field h1 {
     font-size: 24px !important;
   }
+
+  /* line 250, ../scss/layouts/_tablet.scss */
+  div.messages.commerce-add-to-cart-confirmation {
+    left: 0 !important;
+    width: 98% !important;
+    margin: 0 1% !important;
+  }
+
+  /* line 255, ../scss/layouts/_tablet.scss */
+  div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
+    position: relative;
+    width: 100%;
+    display: block !important;
+    clear: both !important;
+  }
 }
 /* line 7, ../scss/layout.scss */
 #header-full {
