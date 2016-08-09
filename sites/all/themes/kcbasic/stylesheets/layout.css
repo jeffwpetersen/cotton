@@ -722,9 +722,10 @@ html {
     left: 0 !important;
     width: 98% !important;
     margin: 0 1% !important;
+    top: 10% !important;
   }
 
-  /* line 255, ../scss/layouts/_tablet.scss */
+  /* line 256, ../scss/layouts/_tablet.scss */
   div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
     position: relative;
     width: 100%;
