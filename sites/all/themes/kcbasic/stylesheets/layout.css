@@ -776,7 +776,7 @@ html {
 *Social Media navagation section
 */
   /* line 267, ../scss/layouts/_tablet.scss */
-  #block-block-3 {
+  #block-block-3, #block-block-4 {
     display: none;
   }
 }
