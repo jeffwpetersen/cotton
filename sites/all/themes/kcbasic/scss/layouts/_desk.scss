@@ -99,8 +99,38 @@
 	  }
   }
 
+  /*
+  *Social Media
+  */
 
-
+#block-block-3 {
+  float: right;
+  p {
+    padding: 13px 30px;
+    a {
+      color: #aec380;
+      text-transform: uppercase;
+      font-weight: normal !important;
+      img {
+        margin: 0px 15px;
+        position: relative;
+        top: 3px;
+      }
+    }
+  }
+}
+#block-block-4 {
+  position: absolute;
+  float: right;
+  width: 150px;
+  right: 0;
+  bottom: -15px;
+  z-index: 10;
+  a {
+    display: block;
+    float: right;
+  }
+}
 
   /************************************************************
 * Galleries
