@@ -1,3 +1,4 @@
+require 'susy'
 # To automatically compile your SASS, paste the following line in your command line while in the "basic" folder:
 # sass --watch sass:css
 #
