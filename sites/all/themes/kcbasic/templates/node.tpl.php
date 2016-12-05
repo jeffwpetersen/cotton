@@ -24,7 +24,9 @@
   <div class="content">
     <?php
       // We hide the comments to render below.
+      hide($content['comments']);
       hide($content['links']);
+	  hide($content['links']['#links']['comment-add']);
       print render($content);
      ?>
   </div> <!-- /content -->
@@ -41,5 +43,5 @@
     </div> <!-- /links -->
   <?php endif; ?>
 
-  <?php print render($content['comments']); ?>
+  <?php  print render($content['comments']); ?>
 </article> <!-- /article #node -->
