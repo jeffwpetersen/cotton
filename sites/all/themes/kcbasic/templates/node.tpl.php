@@ -24,7 +24,6 @@
   <div class="content">
     <?php
       // We hide the comments to render below.
-      hide($content['comments']);
       hide($content['links']);
       print render($content);
      ?>
