@@ -348,25 +348,29 @@ h1.style, h1.title {
   letter-spacing: normal !important;
   line-height: 98%;
 }
+/* line 311, ../scss/compost.scss */
+h1.style span, h1.title span {
+  color: #aec380;
+}
 
-/* line 312, ../scss/compost.scss */
+/* line 316, ../scss/compost.scss */
 h2.style {
   font-family: "Open Sans";
   text-transform: normal;
-  color: #3e3e3e;
+  color: #483e0e;
   font-weight: bold;
   font-size: 1.4vw;
   letter-spacing: normal !important;
 }
 
-/* line 320, ../scss/compost.scss */
+/* line 324, ../scss/compost.scss */
 .break {
   height: 8px;
   background-color: #f2c53a;
   clear: both;
 }
 
-/* line 325, ../scss/compost.scss */
+/* line 329, ../scss/compost.scss */
 .bold-block {
   font-weight: bold !important;
   text-transform: uppercase !important;
@@ -374,7 +378,7 @@ h2.style {
   color: #494949;
 }
 
-/* line 332, ../scss/compost.scss */
+/* line 336, ../scss/compost.scss */
 .callout {
   background-color: #86b622;
   color: #ffffff;
@@ -387,20 +391,20 @@ h2.style {
   line-height: 140%;
 }
 
-/* line 347, ../scss/compost.scss */
+/* line 351, ../scss/compost.scss */
 .front #content-header .title {
   display: none;
 }
-/* line 352, ../scss/compost.scss */
+/* line 356, ../scss/compost.scss */
 .front .front-3 {
   margin: 31px 0;
 }
-/* line 355, ../scss/compost.scss */
+/* line 359, ../scss/compost.scss */
 .front .front-3 .grid-item img {
   border: solid 1px gray;
   display: block;
 }
-/* line 361, ../scss/compost.scss */
+/* line 365, ../scss/compost.scss */
 .front .call-to-action {
   position: absolute;
   bottom: 31px;
@@ -411,18 +415,18 @@ h2.style {
   border-radius: 5px;
   border-bottom: solid 2px #f2c53a;
 }
-/* line 370, ../scss/compost.scss */
+/* line 374, ../scss/compost.scss */
 .front .call-to-action a {
   color: #fff;
   font-family: "Open Sans";
   padding: 10px 31px;
 }
 
-/* line 378, ../scss/compost.scss */
+/* line 382, ../scss/compost.scss */
 .get-yours {
   padding: 31px 0;
 }
-/* line 381, ../scss/compost.scss */
+/* line 385, ../scss/compost.scss */
 .get-yours a {
   font-weight: normal;
   text-decoration: underline;
@@ -431,19 +435,19 @@ h2.style {
 /*
 *Side Promos
 */
-/* line 392, ../scss/compost.scss */
+/* line 396, ../scss/compost.scss */
 .side-promo {
   padding-top: 5px;
 }
-/* line 394, ../scss/compost.scss */
+/* line 398, ../scss/compost.scss */
 .side-promo .promo {
   padding-bottom: 31px;
 }
-/* line 397, ../scss/compost.scss */
+/* line 401, ../scss/compost.scss */
 .side-promo .promo-box {
   position: relative;
 }
-/* line 400, ../scss/compost.scss */
+/* line 404, ../scss/compost.scss */
 .side-promo .promo-title {
   position: absolute;
   bottom: 0px;
@@ -453,7 +457,7 @@ h2.style {
   color: #000000;
   line-height: 19px;
 }
-/* line 409, ../scss/compost.scss */
+/* line 413, ../scss/compost.scss */
 .side-promo .promo-title-bg {
   background-color: #ffffff;
   opacity: 0.7;
@@ -465,49 +469,49 @@ h2.style {
   color: #ffffff;
   line-height: 19px;
 }
-/* line 420, ../scss/compost.scss */
+/* line 424, ../scss/compost.scss */
 .side-promo img {
   width: 100% !important;
 }
 
-/* line 427, ../scss/compost.scss */
+/* line 431, ../scss/compost.scss */
 .recipe h3 {
   font-weight: bold;
   color: #aec380;
   margin-bottom: 0px !important;
 }
-/* line 433, ../scss/compost.scss */
+/* line 437, ../scss/compost.scss */
 .recipe .recipeIngredents dl {
   margin: 20px 10px 40px 45px;
 }
-/* line 435, ../scss/compost.scss */
+/* line 439, ../scss/compost.scss */
 .recipe .recipeIngredents dl dt {
   float: left;
   margin-right: 5px;
   display: inline-block;
 }
-/* line 439, ../scss/compost.scss */
+/* line 443, ../scss/compost.scss */
 .recipe .recipeIngredents dl dt span {
   font-weight: bold;
 }
-/* line 443, ../scss/compost.scss */
+/* line 447, ../scss/compost.scss */
 .recipe .recipeIngredents dl dd {
   margin: 0;
   color: #7c7c7c;
 }
-/* line 452, ../scss/compost.scss */
+/* line 456, ../scss/compost.scss */
 .recipe .recipeSteps ul li {
   list-style: none;
   list-style-type: none;
   margin: 0 0 20px;
 }
-/* line 456, ../scss/compost.scss */
+/* line 460, ../scss/compost.scss */
 .recipe .recipeSteps ul li .recipeStepsHeading {
   display: inline-block;
   color: #aec380;
   vertical-align: top;
 }
-/* line 461, ../scss/compost.scss */
+/* line 465, ../scss/compost.scss */
 .recipe .recipeSteps ul li .recipeStepsBody {
   vertical-align: top;
   display: inline-block;
