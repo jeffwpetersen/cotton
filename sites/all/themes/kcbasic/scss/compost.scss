@@ -17,15 +17,13 @@
     text-transform: uppercase;
     color: #576240;
     font-weight: bold;
-    font-size:2.1vw;
-    letter-spacing: normal !important;
+    font-size:2.4em;
+    letter-spacing: -1px !important;
     line-height: 98%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-  }
-  .field {
-    margin-bottom: 8px;
+    margin-bottom: 0px !important;
   }
   .quote {
     margin: 40px;
@@ -320,8 +318,8 @@ h1.style, h1.title {
   text-transform: uppercase;
   color: #576240;
   font-weight: bold;
-  font-size:2.1vw;
-  letter-spacing: normal !important;
+  font-size:2.4em;
+  letter-spacing: -1 px !important;
   line-height: 98%;
   span {
     color: #aec380;
@@ -333,7 +331,7 @@ h2.style {
   text-transform: normal;
   color: #483e0e;
   font-weight: bold;
-  font-size: 1.4vw;
+  font-size: 1.4em;
   letter-spacing: normal !important;
 }
 .break {

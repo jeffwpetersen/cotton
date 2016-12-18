@@ -97,6 +97,14 @@ html {
     }
   }
 
+  .left-one {
+    @include span(full);
+    clear: right;
+  }
+  .right-one {
+    @include span(full);
+  }
+
   /**
   *move elsewhere
   */
@@ -234,17 +242,24 @@ html {
     margin: 20px 0 !important;
     font-size: .9em;
   }
-  h1.style {
-    font-size: 5.8vw !important;
+  h1.style, #content .title {
+    font-size: 1.8em !important;
   }
   h2.style {
-    font-size: 4.1vw !important;
+    font-size: 1.2em !important;
   }
 
   .page-blog {
     .field-name-title-field h1 {
       font-size: 24px !important;
     }
+  }
+
+  .page-center, .page-node-58 #content-header {
+    padding: 0 20px;
+  }
+  .light-callout {
+    padding: 25px 45px !important;
   }
 
   div.messages.commerce-add-to-cart-confirmation {

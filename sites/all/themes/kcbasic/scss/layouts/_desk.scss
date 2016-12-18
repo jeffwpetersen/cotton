@@ -215,11 +215,16 @@
 }
 
 .left-one {
-  @include span(isolate 7 at 3);
-  clear: right;
+  float: left;
+  width: 36%;
+  clear: left;
+  margin-left: 12%
 }
 .right-one {
-  @include span(isolate 7 at 10);
+  float: right;
+  width: 36%;
+  clear: right;
+  margin-right: 12%;
 }
 
 /*****************************

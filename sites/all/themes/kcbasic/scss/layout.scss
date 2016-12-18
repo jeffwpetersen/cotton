@@ -6,7 +6,7 @@
 
 #header-full { background-color:#ffffeb}
 #navigation-full { background-color:#576240; border-bottom: solid 7px #aec380; border-top: solid 1px #483e0e}
-#page-full { background-color:#FFF; min-height:500px; padding:20px 0; min-height:1000px;}
+#page-full { background-color:#FFF; min-height:500px; padding:20px 0 0 0; min-height:1000px;}
 #footer-full { background-color:#576240; height: 150px}
 #header {background-color:#ffffeb; padding: 20px 0px;}
 #navigation {background-color:#576240}
@@ -335,4 +335,16 @@ input[type="button"], input[type="reset"], input[type="submit"] {
 #edit-field-incident-description-und-0-format-help, #edit-field-comments-suggested-action-und-0-format-help,  #edit-field-comments-und-0-format-help,
 .form-item-field-incident-number-und-0-value{
 	display:none;
+}
+
+#block-system-main {
+	margin-bottom: 0px !important;
+	padding-bottom: 0 !important;
+}
+
+.links {
+	display: none;
+}
+.admin-menu .links {
+	display: block;
 }
