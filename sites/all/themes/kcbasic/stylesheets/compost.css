@@ -20,7 +20,7 @@
 #content .title, #content .block-title {
   font-family: "Open Sans";
   text-transform: uppercase;
-  color: #576240;
+  color: #576240 !important;
   font-weight: bold;
   font-size: 2.4em;
   letter-spacing: -1px !important;
@@ -82,7 +82,7 @@
 .page-blog .field-name-title-field h1, .page-blog #content h1, .node-type-blog-post .field-name-title-field h1, .node-type-blog-post #content h1 {
   font-family: "Open Sans";
   text-transform: uppercase;
-  color: #576240;
+  color: #aec380;
   font-weight: bold;
   font-size: 2.1vw;
   letter-spacing: normal !important;
@@ -92,7 +92,7 @@
 }
 /* line 83, ../scss/compost.scss */
 .page-blog .field-name-title-field h1 a, .page-blog #content h1 a, .node-type-blog-post .field-name-title-field h1 a, .node-type-blog-post #content h1 a {
-  color: #576240;
+  color: #aec380;
 }
 /* line 85, ../scss/compost.scss */
 .page-blog .field-name-title-field h1 a:hover, .page-blog #content h1 a:hover, .node-type-blog-post .field-name-title-field h1 a:hover, .node-type-blog-post #content h1 a:hover {
