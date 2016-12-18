@@ -19,6 +19,11 @@
   	margin-right: auto;
 	@include container();
 }
+.page-center, .page-node-58 #content-header {
+  @include container();
+  padding-left: 1.04167%;
+  padding-right: 1.04167%;
+}
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
 #header,
@@ -146,15 +151,26 @@
   @include with-layout($susy-nested-gallery) {
     .grid-of-2 {
       @include container();
-      @include span(12 of 12);
+      @include span(18 of 18);
       padding-bottom: 0;
       .grid-item {
-        @include gallery(6 of 12);
+        @include gallery(9 of 18);
         margin-bottom: gutter(20);
         box-sizing: border-box;
       }
+      clear: both;
     }
-
+    .inset-grid-of-2 {
+      @include container();
+      @include span(isolate 16 at 2);
+      padding-bottom: 0;
+      .grid-item {
+        @include gallery(8 of 16);
+        margin-bottom: gutter(20);
+        box-sizing: border-box;
+      }
+      clear: both;
+    }
     .grid-of-3 {
       @include container();
       @include span(12 of 12);
@@ -184,6 +200,26 @@
     }
   }
   
+}
+
+.grid-item:after, .grid-of-2:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.grid-item img {
+  width: 100%;
+}
+
+.left-one {
+  @include span(isolate 7 at 3);
+  clear: right;
+}
+.right-one {
+  @include span(isolate 7 at 10);
 }
 
 /*****************************

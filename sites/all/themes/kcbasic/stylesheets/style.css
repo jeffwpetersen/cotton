@@ -125,44 +125,43 @@ h6 {
 /* line 118, ../scss/style.scss */
 #content p {
   margin: 0 0 1em 0;
-  font-weight: 300;
 }
 
-/* line 123, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 cite {
   font-size: .65em;
 }
 
-/* line 126, ../scss/style.scss */
+/* line 125, ../scss/style.scss */
 ul, ol {
   margin-left: 0;
   padding-left: 0;
   font-weight: 300;
 }
 
-/* line 133, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 table {
   width: 99.9%;
 }
 
-/* line 139, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 tr.even td,
 tr.odd td {
   padding: 10px 0px;
 }
 
-/* line 144, ../scss/style.scss */
+/* line 143, ../scss/style.scss */
 tr.odd {
   background-color: white;
 }
 
-/* line 149, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
 pre, code, tt {
   font: 1em "andale mono", "lucida console", monospace;
   line-height: 1.5;
 }
 
-/* line 154, ../scss/style.scss */
+/* line 153, ../scss/style.scss */
 pre {
   background-color: #efefef;
   display: block;
@@ -171,71 +170,71 @@ pre {
   border: 1px solid #aaaaaa;
 }
 
-/* line 163, ../scss/style.scss */
+/* line 162, ../scss/style.scss */
 ul {
   list-style-type: disc;
 }
-/* line 165, ../scss/style.scss */
+/* line 164, ../scss/style.scss */
 ul ul {
   list-style-type: circle;
 }
-/* line 167, ../scss/style.scss */
+/* line 166, ../scss/style.scss */
 ul ul ul {
   list-style-type: square;
 }
-/* line 169, ../scss/style.scss */
+/* line 168, ../scss/style.scss */
 ul ul ul ul {
   list-style-type: circle;
 }
 
-/* line 177, ../scss/style.scss */
+/* line 176, ../scss/style.scss */
 #content-area .field ul, #content-area .field ol {
   margin: 20px 10px 20px 45px;
 }
 
-/* line 182, ../scss/style.scss */
+/* line 181, ../scss/style.scss */
 ol {
   list-style-type: decimal;
 }
-/* line 184, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 ol ol {
   list-style-type: lower-alpha;
 }
-/* line 186, ../scss/style.scss */
+/* line 185, ../scss/style.scss */
 ol ol ol {
   list-style-type: decimal;
 }
 
-/* line 193, ../scss/style.scss */
+/* line 192, ../scss/style.scss */
 abbr {
   border-bottom: 1px dotted #666666;
   cursor: help;
   white-space: nowrap;
 }
 
-/* line 201, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 #system-themes-form img {
   width: 100px;
 }
 
-/* line 205, ../scss/style.scss */
+/* line 204, ../scss/style.scss */
 label {
   color: #333;
   font-size: .85em;
 }
-/* line 208, ../scss/style.scss */
+/* line 207, ../scss/style.scss */
 label .form-required {
   color: #D55556;
 }
 
-/* line 213, ../scss/style.scss */
+/* line 212, ../scss/style.scss */
 input {
   padding: 2px 0;
   text-indent: 3px;
   font-size: .85em !important;
 }
 
-/* line 219, ../scss/style.scss */
+/* line 218, ../scss/style.scss */
 .form-item .description {
   font-style: italic;
   line-height: 1.2em;
@@ -244,21 +243,21 @@ input {
   color: #777777;
 }
 
-/* line 227, ../scss/style.scss */
+/* line 226, ../scss/style.scss */
 .form-select {
   padding: 2px !important;
 }
-/* line 229, ../scss/style.scss */
+/* line 228, ../scss/style.scss */
 .form-select option {
   padding: 2px;
 }
 
-/* line 234, ../scss/style.scss */
+/* line 233, ../scss/style.scss */
 #edit-delete {
   color: #cc0000;
 }
 
-/* line 239, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 div.messages {
   padding: 9px;
   margin: 1em 0;
@@ -267,21 +266,21 @@ div.messages {
   border: 1px solid #aaccee;
 }
 
-/* line 247, ../scss/style.scss */
+/* line 246, ../scss/style.scss */
 div.warning {
   color: #884400;
   background: #ffee66;
   border-color: #eedd55;
 }
 
-/* line 253, ../scss/style.scss */
+/* line 252, ../scss/style.scss */
 div.error {
   color: white;
   background: #ee6633;
   border-color: #dd5522;
 }
 
-/* line 259, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 div.status {
   color: #000;
   background: #0a6a10;
@@ -292,13 +291,13 @@ div.status {
   border: 0px solid #000000;
   text-indent: 20px;
 }
-/* line 268, ../scss/style.scss */
+/* line 267, ../scss/style.scss */
 div.status a {
   color: #000;
   text-decoration: underline;
 }
 
-/* line 273, ../scss/style.scss */
+/* line 272, ../scss/style.scss */
 .form-item, .form-actions {
   margin-top: 0px;
 }

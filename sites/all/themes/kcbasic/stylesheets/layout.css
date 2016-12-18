@@ -38,8 +38,23 @@
   clear: both;
 }
 
+/* line 22, ../scss/layouts/_desk.scss */
+.page-center, .page-node-58 #content-header {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.04167%;
+  padding-right: 1.04167%;
+}
+/* line 12, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.page-center:after, .page-node-58 #content-header:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
-/* line 33, ../scss/layouts/_desk.scss */
+/* line 38, ../scss/layouts/_desk.scss */
 .no-sidebars #content {
   width: 97.91667%;
   float: left;
@@ -47,7 +62,7 @@
   margin-right: 1.04167%;
 }
 
-/* line 38, ../scss/layouts/_desk.scss */
+/* line 43, ../scss/layouts/_desk.scss */
 #header .container, #navigation .container {
   width: 97.91667%;
   float: left;
@@ -62,14 +77,14 @@
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 52, ../scss/layouts/_desk.scss */
+  /* line 57, ../scss/layouts/_desk.scss */
   .sidebar-first #content {
     width: 70.13889%;
     float: right;
     margin-left: 1.04167%;
     margin-right: 1.04167%;
   }
-  /* line 56, ../scss/layouts/_desk.scss */
+  /* line 61, ../scss/layouts/_desk.scss */
   .sidebar-first #sidebar-first {
     width: 25.69444%;
     float: left;
@@ -80,14 +95,14 @@
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 65, ../scss/layouts/_desk.scss */
+  /* line 70, ../scss/layouts/_desk.scss */
   .sidebar-second #content {
     width: 59.02778%;
     float: left;
     margin-left: 1.04167%;
     margin-right: -100%;
   }
-  /* line 69, ../scss/layouts/_desk.scss */
+  /* line 74, ../scss/layouts/_desk.scss */
   .sidebar-second .sidebar.second {
     width: 28.47222%;
     float: left;
@@ -98,21 +113,21 @@
   /**
    * The layout when there are two sidebars.
    */
-  /* line 78, ../scss/layouts/_desk.scss */
+  /* line 83, ../scss/layouts/_desk.scss */
   .two-sidebars #content {
     width: 53.47222%;
     float: left;
     margin-left: 23.26389%;
     margin-right: -100%;
   }
-  /* line 82, ../scss/layouts/_desk.scss */
+  /* line 87, ../scss/layouts/_desk.scss */
   .two-sidebars .sidebar.first {
     width: 20.13889%;
     float: left;
     margin-left: 1.04167%;
     margin-right: 1.04167%;
   }
-  /* line 86, ../scss/layouts/_desk.scss */
+  /* line 91, ../scss/layouts/_desk.scss */
   .two-sidebars .sidebar.second {
     width: 20.13889%;
     float: right;
@@ -123,7 +138,7 @@
   /**
   *move elsewhere
   */
-  /* line 96, ../scss/layouts/_desk.scss */
+  /* line 101, ../scss/layouts/_desk.scss */
   .not-front #logo img {
     width: 60% !important;
   }
@@ -131,29 +146,29 @@
   /*
   *Social Media
   */
-  /* line 106, ../scss/layouts/_desk.scss */
+  /* line 111, ../scss/layouts/_desk.scss */
   #block-block-3 {
     float: right;
     z-index: 100;
   }
-  /* line 109, ../scss/layouts/_desk.scss */
+  /* line 114, ../scss/layouts/_desk.scss */
   #block-block-3 p {
     padding: 13px 30px;
   }
-  /* line 111, ../scss/layouts/_desk.scss */
+  /* line 116, ../scss/layouts/_desk.scss */
   #block-block-3 p a {
     color: #aec380;
     text-transform: uppercase;
     font-weight: normal !important;
   }
-  /* line 115, ../scss/layouts/_desk.scss */
+  /* line 120, ../scss/layouts/_desk.scss */
   #block-block-3 p a img {
     margin: 0px 15px;
     position: relative;
     top: 3px;
   }
 
-  /* line 123, ../scss/layouts/_desk.scss */
+  /* line 128, ../scss/layouts/_desk.scss */
   #block-block-4 {
     position: absolute;
     float: right;
@@ -162,7 +177,7 @@
     bottom: -15px;
     z-index: 10;
   }
-  /* line 130, ../scss/layouts/_desk.scss */
+  /* line 135, ../scss/layouts/_desk.scss */
   #block-block-4 a {
     display: block;
     float: right;
@@ -171,7 +186,7 @@
   /************************************************************
 * Galleries
 ************************************************************/
-  /* line 147, ../scss/layouts/_desk.scss */
+  /* line 152, ../scss/layouts/_desk.scss */
   .grid-of-2 {
     max-width: 100%;
     margin-left: auto;
@@ -181,6 +196,7 @@
     margin-left: 0;
     margin-right: 0;
     padding-bottom: 0;
+    clear: both;
   }
   /* line 12, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
   .grid-of-2:after {
@@ -188,9 +204,9 @@
     display: block;
     clear: both;
   }
-  /* line 151, ../scss/layouts/_desk.scss */
+  /* line 156, ../scss/layouts/_desk.scss */
   .grid-of-2 .grid-item {
-    width: 49.01961%;
+    width: 49.35065%;
     float: left;
     margin-bottom: 1.16732%;
     box-sizing: border-box;
@@ -204,12 +220,51 @@
   }
   /* line 66, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
   .grid-of-2 .grid-item:nth-child(2n + 2) {
-    margin-left: 50.98039%;
+    margin-left: 50.64935%;
     margin-right: -100%;
     clear: none;
   }
 
-  /* line 158, ../scss/layouts/_desk.scss */
+  /* line 163, ../scss/layouts/_desk.scss */
+  .inset-grid-of-2 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88.74459%;
+    float: left;
+    margin-left: 5.62771%;
+    margin-right: -100%;
+    padding-bottom: 0;
+    clear: both;
+  }
+  /* line 12, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .inset-grid-of-2:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 167, ../scss/layouts/_desk.scss */
+  .inset-grid-of-2 .grid-item {
+    width: 49.26829%;
+    float: left;
+    margin-bottom: 1.16732%;
+    box-sizing: border-box;
+  }
+  /* line 66, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  .inset-grid-of-2 .grid-item:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  .inset-grid-of-2 .grid-item:nth-child(2n + 2) {
+    margin-left: 50.73171%;
+    margin-right: -100%;
+    clear: none;
+  }
+
+  /* line 174, ../scss/layouts/_desk.scss */
   .grid-of-3 {
     max-width: 100%;
     margin-left: auto;
@@ -226,7 +281,7 @@
     display: block;
     clear: both;
   }
-  /* line 162, ../scss/layouts/_desk.scss */
+  /* line 178, ../scss/layouts/_desk.scss */
   .grid-of-3 .grid-item {
     width: 32.02614%;
     float: left;
@@ -252,7 +307,7 @@
     clear: none;
   }
 
-  /* line 167, ../scss/layouts/_desk.scss */
+  /* line 183, ../scss/layouts/_desk.scss */
   .grid-of-4 {
     max-width: 100%;
     margin-left: auto;
@@ -269,7 +324,7 @@
     display: block;
     clear: both;
   }
-  /* line 171, ../scss/layouts/_desk.scss */
+  /* line 187, ../scss/layouts/_desk.scss */
   .grid-of-4 .grid-item {
     width: 23.52941%;
     float: left;
@@ -301,7 +356,7 @@
     clear: none;
   }
 
-  /* line 176, ../scss/layouts/_desk.scss */
+  /* line 192, ../scss/layouts/_desk.scss */
   .grid-of-6 {
     max-width: 100%;
     margin-left: auto;
@@ -318,7 +373,7 @@
     display: block;
     clear: both;
   }
-  /* line 180, ../scss/layouts/_desk.scss */
+  /* line 196, ../scss/layouts/_desk.scss */
   .grid-of-6 .grid-item {
     width: 15.03268%;
     float: left;
@@ -362,10 +417,41 @@
     clear: none;
   }
 }
+/* line 205, ../scss/layouts/_desk.scss */
+.grid-item:after, .grid-of-2:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 213, ../scss/layouts/_desk.scss */
+.grid-item img {
+  width: 100%;
+}
+
+/* line 217, ../scss/layouts/_desk.scss */
+.left-one {
+  width: 36.80556%;
+  float: left;
+  margin-left: 12.15278%;
+  margin-right: -100%;
+  clear: right;
+}
+
+/* line 221, ../scss/layouts/_desk.scss */
+.right-one {
+  width: 36.80556%;
+  float: left;
+  margin-left: 51.04167%;
+  margin-right: -100%;
+}
+
 /*****************************
 /* product pages display groups
 /***********/
-/* line 194, ../scss/layouts/_desk.scss */
+/* line 230, ../scss/layouts/_desk.scss */
 .group-product-details {
   width: 53.47222%;
   float: right;
@@ -373,7 +459,7 @@
   margin-right: 1.04167%;
 }
 
-/* line 197, ../scss/layouts/_desk.scss */
+/* line 233, ../scss/layouts/_desk.scss */
 .group-main-image {
   width: 42.36111%;
   float: left;
@@ -832,17 +918,36 @@ html {
 #header,
 #navigation,
 #page,
-#footer {
-  max-width: 1556px;
+#footer, .page-center {
+  max-width: 1456px;
 }
 
-/* line 23, ../scss/layout.scss */
+/* line 22, ../scss/layout.scss */
+.page-center, .page-node-58 #content-header {
+  max-width: 1456px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 29, ../scss/layout.scss */
+.page-node-58 #page {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+/* line 32, ../scss/layout.scss */
+.page-node-58 #page #content {
+  width: 100% !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/* line 40, ../scss/layout.scss */
 .alpha-list {
   display: table;
   width: 100%;
   margin: 10px 0;
 }
-/* line 29, ../scss/layout.scss */
+/* line 46, ../scss/layout.scss */
 .alpha-list span a {
   display: table-cell;
   padding: 5px;
@@ -856,28 +961,28 @@ html {
   float: left;
   font-size: .8em;
 }
-/* line 42, ../scss/layout.scss */
+/* line 59, ../scss/layout.scss */
 .alpha-list span a:hover {
   background-color: #337ab4;
   color: #FFF;
 }
 
-/* line 49, ../scss/layout.scss */
+/* line 66, ../scss/layout.scss */
 .view-content table {
   font-size: .9em;
 }
-/* line 51, ../scss/layout.scss */
+/* line 68, ../scss/layout.scss */
 .view-content table td {
   vertical-align: top;
   min-width: 30% !important;
 }
 
 /*********************************** @group MegaMenu * Top Menu * Custoemr Service Menu */
-/* line 60, ../scss/layout.scss */
+/* line 77, ../scss/layout.scss */
 #block-system-main-menu .content ul {
   display: table;
 }
-/* line 62, ../scss/layout.scss */
+/* line 79, ../scss/layout.scss */
 #block-system-main-menu .content ul li {
   display: table-cell;
   table-layout: fixed;
@@ -886,7 +991,7 @@ html {
   border-top-left-radius: .2em .2em;
   border-top-right-radius: .2em .2em;
 }
-/* line 69, ../scss/layout.scss */
+/* line 86, ../scss/layout.scss */
 #block-system-main-menu .content ul li a {
   color: #fff;
   font-size: 1em;
@@ -896,21 +1001,21 @@ html {
   font-size: 1.2em;
   letter-spacing: .1em;
 }
-/* line 78, ../scss/layout.scss */
+/* line 95, ../scss/layout.scss */
 #block-system-main-menu .content ul li:hover {
   background-color: #483e0e;
   border-bottom-color: #fff;
 }
-/* line 87, ../scss/layout.scss */
+/* line 104, ../scss/layout.scss */
 #block-system-main-menu .content .active-trail a {
   background-color: #483e0e;
 }
 
-/* line 94, ../scss/layout.scss */
+/* line 111, ../scss/layout.scss */
 #block-menu-menu-footer-navigation .content {
   padding-top: 50px;
 }
-/* line 97, ../scss/layout.scss */
+/* line 114, ../scss/layout.scss */
 #block-menu-menu-footer-navigation .content ul li {
   display: inline;
   float: left;
@@ -919,7 +1024,7 @@ html {
   font-size: 12px;
   font-weight: bold;
 }
-/* line 104, ../scss/layout.scss */
+/* line 121, ../scss/layout.scss */
 #block-menu-menu-footer-navigation .content ul li a {
   color: #fff;
   font-size: 1em;
@@ -930,17 +1035,17 @@ html {
   letter-spacing: .1em;
   font-weight: normal;
 }
-/* line 113, ../scss/layout.scss */
+/* line 130, ../scss/layout.scss */
 #block-menu-menu-footer-navigation .content ul li a:hover {
   border-bottom-color: #483e0e;
   text-decoration: underline;
 }
-/* line 119, ../scss/layout.scss */
+/* line 136, ../scss/layout.scss */
 #block-menu-menu-footer-navigation .content ul li span {
   color: #fff;
 }
 
-/* line 127, ../scss/layout.scss */
+/* line 144, ../scss/layout.scss */
 .megamenu-skin-id7 {
   position: relative;
   left: 1px;
@@ -951,11 +1056,11 @@ html {
   top: 5px;
   height: 30px !important;
 }
-/* line 137, ../scss/layout.scss */
+/* line 154, ../scss/layout.scss */
 .megamenu-skin-id7 .megamenu-parent h2 {
   margin: 0;
 }
-/* line 141, ../scss/layout.scss */
+/* line 158, ../scss/layout.scss */
 .megamenu-skin-id7 .megamenu-parent h2 a {
   padding: 5px 10px;
   margin: 0;
@@ -976,7 +1081,7 @@ html {
   border-left: solid 1px transparent;
   border-right: solid 1px transparent;
 }
-/* line 162, ../scss/layout.scss */
+/* line 179, ../scss/layout.scss */
 .megamenu-skin-id7 .megamenu-parent h2 a:hover {
   /* first parent menu hover state */
   background: #00598e;
@@ -984,7 +1089,7 @@ html {
   color: #fff;
   border: solid 1px #ccc;
 }
-/* line 169, ../scss/layout.scss */
+/* line 186, ../scss/layout.scss */
 .megamenu-skin-id7 .megamenu-bin {
   border: solid 1px #ccc;
   line-height: 22px;
@@ -997,26 +1102,26 @@ html {
   -webkit-box-shadow: 0px 5px 5px -1px  #ccc;
   box-shadow: 0px 5px 5px -1px #ccc;
 }
-/* line 183, ../scss/layout.scss */
+/* line 200, ../scss/layout.scss */
 .megamenu-skin-id7 li, .megamenu-skin-id7 li ul {
   margin: 0 !important;
   padding: 0 !important;
   width: 100%;
 }
-/* line 188, ../scss/layout.scss */
+/* line 205, ../scss/layout.scss */
 .megamenu-skin-id7 .megamenu-items {
   border-bottom: solid 1px #fff;
 }
-/* line 192, ../scss/layout.scss */
+/* line 209, ../scss/layout.scss */
 .megamenu-skin-id7 .megamenu-slot, .megamenu-skin-id7 .megamenu-item {
   width: 175px;
 }
-/* line 196, ../scss/layout.scss */
+/* line 213, ../scss/layout.scss */
 .megamenu-skin-id7 .megamenu-slot:hover, .megamenu-skin-id7 .megamenu-item:hover {
   background-color: #083752;
   width: 175px;
 }
-/* line 201, ../scss/layout.scss */
+/* line 218, ../scss/layout.scss */
 .megamenu-skin-id7 .megamenu-slot h3 a {
   color: #fff;
   font-size: 100%;
@@ -1024,95 +1129,95 @@ html {
   padding: 8px;
   border-bottom: 1px solid #FFF;
 }
-/* line 209, ../scss/layout.scss */
+/* line 226, ../scss/layout.scss */
 .megamenu-skin-id7 .megamenu-slot a {
   color: #d0ebfe;
   padding: 2px 4px 0 20px;
   font-size: 100%;
 }
-/* line 215, ../scss/layout.scss */
+/* line 232, ../scss/layout.scss */
 .megamenu-skin-id7 .hovering h2 a {
   /* first parent level menu list hover state*/
 }
 
 /* submit */
-/* line 223, ../scss/layout.scss */
+/* line 240, ../scss/layout.scss */
 .view .views-exposed-form {
   margin: 0 0 20px 0;
 }
-/* line 226, ../scss/layout.scss */
+/* line 243, ../scss/layout.scss */
 .view .views-exposed-widgets {
   color: #FFF;
   margin: 0px;
   padding: 0px;
 }
-/* line 231, ../scss/layout.scss */
+/* line 248, ../scss/layout.scss */
 .view .views-exposed-widgets select, .view .views-exposed-widgets form, .view .views-exposed-widgets input {
   color: #666;
   padding: 0;
 }
-/* line 236, ../scss/layout.scss */
+/* line 253, ../scss/layout.scss */
 .view .views-exposed-widgets .form-submit {
   background-color: #337ab4;
   padding: 5px 10px;
   color: #FFF;
   text-transform: uppercase;
 }
-/* line 242, ../scss/layout.scss */
+/* line 259, ../scss/layout.scss */
 .view .views-exposed-widgets .form-submit:hover {
   background-color: #900;
 }
-/* line 245, ../scss/layout.scss */
+/* line 262, ../scss/layout.scss */
 .view .views-exposed-widgets .view-header {
   margin-bottom: 10px;
   clear: both;
 }
-/* line 250, ../scss/layout.scss */
+/* line 267, ../scss/layout.scss */
 .view #edit-field-incident-date-value-wrapper {
   margin-right: 20px;
 }
 
-/* line 256, ../scss/layout.scss */
+/* line 273, ../scss/layout.scss */
 .page-incidents #edit-taxonomy-vocabulary-6-tid, .page-incidents #edit-taxonomy-vocabulary-1-tid, .page-incidents #edit-taxonomy-vocabulary-4-tid {
   height: 280px !important;
 }
-/* line 258, ../scss/layout.scss */
+/* line 275, ../scss/layout.scss */
 .page-incidents #edit-taxonomy-vocabulary-6-tid option, .page-incidents #edit-taxonomy-vocabulary-1-tid option, .page-incidents #edit-taxonomy-vocabulary-4-tid option {
   padding: 2px;
   size: 10 !important;
 }
 
 /* buttons */
-/* line 267, ../scss/layout.scss */
+/* line 284, ../scss/layout.scss */
 input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
   padding: 5px 10px 5px 0;
   margin: 5px 10px 5px 0;
 }
 
-/* line 273, ../scss/layout.scss */
+/* line 290, ../scss/layout.scss */
 .comments {
   padding: 20px;
   margin-top: 20px;
   border: solid 2px #CCC;
 }
 
-/* line 279, ../scss/layout.scss */
+/* line 296, ../scss/layout.scss */
 .vertical-tabs {
   margin: 20px 0 0 0 !important;
 }
-/* line 281, ../scss/layout.scss */
+/* line 298, ../scss/layout.scss */
 .vertical-tabs .vertical-tabs-list {
   margin: 0px !important;
 }
 
-/* line 286, ../scss/layout.scss */
+/* line 303, ../scss/layout.scss */
 .item-list .pager {
   text-align: left !important;
   margin: 20px 0;
 }
 
-/* line 291, ../scss/layout.scss */
+/* line 308, ../scss/layout.scss */
 .related-link, .print_html, .print_pdf {
   padding: 5px 10px;
   background-color: #999;
@@ -1124,22 +1229,22 @@ input[type="button"], input[type="reset"], input[type="submit"] {
   clear: both;
   margin-left: 0px !important;
 }
-/* line 301, ../scss/layout.scss */
+/* line 318, ../scss/layout.scss */
 .related-link a, .print_html a, .print_pdf a {
   color: #FFF !important;
 }
 
-/* line 308, ../scss/layout.scss */
+/* line 325, ../scss/layout.scss */
 .sidebar .block h2 {
   border-bottom: none;
 }
 
-/* line 314, ../scss/layout.scss */
+/* line 331, ../scss/layout.scss */
 .role-anonymous-user #edit-field-incident-status {
   display: none;
 }
 
-/* line 318, ../scss/layout.scss */
+/* line 335, ../scss/layout.scss */
 #edit-field-incident-description-und-0-format-help, #edit-field-comments-suggested-action-und-0-format-help, #edit-field-comments-und-0-format-help,
 .form-item-field-incident-number-und-0-value {
   display: none;
