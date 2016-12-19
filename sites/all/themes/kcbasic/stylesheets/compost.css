@@ -579,15 +579,23 @@ h2.style {
 .dirt-break {
   background-color: #594A42;
 }
+/* line 518, ../scss/compost.scss */
+.dirt-break .padding {
+  padding: 93px;
+}
+/* line 521, ../scss/compost.scss */
+.dirt-break h2, .dirt-break ul {
+  color: #ffffff;
+}
 
-/* line 519, ../scss/compost.scss */
+/* line 525, ../scss/compost.scss */
 .learn-about-the-soil-food-web {
   color: #FFF;
   padding: 62px 93px !important;
   font-weight: bold;
 }
 
-/* line 524, ../scss/compost.scss */
+/* line 530, ../scss/compost.scss */
 .white-border {
   border: solid 20px white;
 }
