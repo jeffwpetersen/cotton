@@ -295,7 +295,7 @@ div.messages.commerce-add-to-cart-confirmation {
   color: #0a2b1d !important;
 }
 .green {
-  color: #86b622;
+  color: #576240;
 }
 .light-green {
   color: #aec380 !important;
@@ -485,18 +485,13 @@ h2.style {
   }
 }
 .green-break {
-  border-top: solid 8px #f2c53a;
   background-color: #aec380;
   padding: 40px 0;
 }
-.light-blue-break {
-}
-.light-blue-break {
+.yellow-border-top {
   border-top: solid 8px #f2c53a;
-  background-color: #E1F4FD;
-  padding: 40px 0 0 0;
-  position: relative;
 }
+
 
 .light-callout {
   padding: 31px 93px;
@@ -504,9 +499,9 @@ h2.style {
   font-weight: bold !important;
   color: #ffffff;
 }
-.bed-of-vegetables {
+h2.bed-of-vegetables {
   color: #000000;
-  margin: 62px 93px !important;
+  margin: 62px 93px;
   font-weight: bold;
 }
 .img-down {
@@ -518,8 +513,16 @@ h2.style {
   .padding {
     padding: 93px;
   }
-  h2, ul {
+  h2, ul, ol {
     color: #ffffff;
+  }
+  p {
+    color: #ffffff;
+  }
+  .strong {
+    h2 {
+      font-weight: bold;
+    }
   }
 }
 .learn-about-the-soil-food-web {
@@ -529,4 +532,40 @@ h2.style {
 }
 .white-border {
   border: solid 20px white;
+}
+
+.float-left {
+  float: left;
+}
+
+/*
+* benefits of leaf compost shit.
+*/
+
+.benefits-green-section {
+  margin-top: 110px;
+  position: relative;
+}
+.light-blue-break {
+  border-top: solid 8px #f2c53a;
+  background-color: #E1F4FD;
+  padding: 40px 0 0 0;
+  position: relative;
+}
+.blue-grade {
+  background-color: #ffffff; // Old browsers
+  @include filter-gradient(#ffffff, #89e7ff, vertical); // IE6-9
+  @include background-image(linear-gradient(top, #ffffff 0%,#89e7ff 100%));
+  min-height: 300px !important;
+  p {
+    margin: 0px !important;
+  }
+  .page-center-special {
+    min-height: 300px;
+    position: relative;
+  }
+  .place-sun-image {
+    position: absolute;
+    bottom: -200px;
+  }
 }

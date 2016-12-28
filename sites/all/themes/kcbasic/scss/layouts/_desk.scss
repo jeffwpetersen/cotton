@@ -19,10 +19,20 @@
   	margin-right: auto;
 	@include container();
 }
-.page-center, .page-node-58 #content-header {
+.page-center, .page-node-58 #content-header, .page-node-59 #content-header  {
   @include container();
   padding-left: 1.04167%;
   padding-right: 1.04167%;
+}
+.page-center-special {
+  @include container();
+  padding-left: 1.04167%;
+  padding-right: 1.04167%;
+  clear: none !important;
+}
+
+.page-center-special:after {
+  clear: none !important;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */

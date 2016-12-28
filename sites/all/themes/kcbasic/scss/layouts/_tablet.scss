@@ -255,7 +255,7 @@ html {
     }
   }
 
-  .page-center, .page-node-58 #content-header {
+  .page-center, .page-center-special, .page-node-58 #content-header, .page-node-59 #content-header  {
     padding: 0 20px;
   }
   .light-callout {
@@ -274,6 +274,16 @@ html {
     display: block !important;
     clear: both !important;
   }
+
+  .bed-of-vegetables {
+    margin: 22px 33px !important;
+  }
+  .dirt-break {
+    .padding {
+      padding: 66px 33px !important;
+    }
+  }
+
 
   /*
 *Social Media navagation section

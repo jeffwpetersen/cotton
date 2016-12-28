@@ -39,7 +39,7 @@
 }
 
 /* line 22, ../scss/layouts/_desk.scss */
-.page-center, .page-node-58 #content-header {
+.page-center, .page-node-58 #content-header, .page-node-59 #content-header {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -47,14 +47,35 @@
   padding-right: 1.04167%;
 }
 /* line 12, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
-.page-center:after, .page-node-58 #content-header:after {
+.page-center:after, .page-node-58 #content-header:after, .page-node-59 #content-header:after {
   content: " ";
   display: block;
   clear: both;
 }
 
+/* line 27, ../scss/layouts/_desk.scss */
+.page-center-special {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.04167%;
+  padding-right: 1.04167%;
+  clear: none !important;
+}
+/* line 12, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.page-center-special:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 34, ../scss/layouts/_desk.scss */
+.page-center-special:after {
+  clear: none !important;
+}
+
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
-/* line 38, ../scss/layouts/_desk.scss */
+/* line 48, ../scss/layouts/_desk.scss */
 .no-sidebars #content {
   width: 97.91667%;
   float: left;
@@ -62,7 +83,7 @@
   margin-right: 1.04167%;
 }
 
-/* line 43, ../scss/layouts/_desk.scss */
+/* line 53, ../scss/layouts/_desk.scss */
 #header .container, #navigation .container {
   width: 97.91667%;
   float: left;
@@ -77,14 +98,14 @@
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 57, ../scss/layouts/_desk.scss */
+  /* line 67, ../scss/layouts/_desk.scss */
   .sidebar-first #content {
     width: 70.13889%;
     float: right;
     margin-left: 1.04167%;
     margin-right: 1.04167%;
   }
-  /* line 61, ../scss/layouts/_desk.scss */
+  /* line 71, ../scss/layouts/_desk.scss */
   .sidebar-first #sidebar-first {
     width: 25.69444%;
     float: left;
@@ -95,14 +116,14 @@
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 70, ../scss/layouts/_desk.scss */
+  /* line 80, ../scss/layouts/_desk.scss */
   .sidebar-second #content {
     width: 59.02778%;
     float: left;
     margin-left: 1.04167%;
     margin-right: -100%;
   }
-  /* line 74, ../scss/layouts/_desk.scss */
+  /* line 84, ../scss/layouts/_desk.scss */
   .sidebar-second .sidebar.second {
     width: 28.47222%;
     float: left;
@@ -113,21 +134,21 @@
   /**
    * The layout when there are two sidebars.
    */
-  /* line 83, ../scss/layouts/_desk.scss */
+  /* line 93, ../scss/layouts/_desk.scss */
   .two-sidebars #content {
     width: 53.47222%;
     float: left;
     margin-left: 23.26389%;
     margin-right: -100%;
   }
-  /* line 87, ../scss/layouts/_desk.scss */
+  /* line 97, ../scss/layouts/_desk.scss */
   .two-sidebars .sidebar.first {
     width: 20.13889%;
     float: left;
     margin-left: 1.04167%;
     margin-right: 1.04167%;
   }
-  /* line 91, ../scss/layouts/_desk.scss */
+  /* line 101, ../scss/layouts/_desk.scss */
   .two-sidebars .sidebar.second {
     width: 20.13889%;
     float: right;
@@ -138,7 +159,7 @@
   /**
   *move elsewhere
   */
-  /* line 101, ../scss/layouts/_desk.scss */
+  /* line 111, ../scss/layouts/_desk.scss */
   .not-front #logo img {
     width: 60% !important;
   }
@@ -146,29 +167,29 @@
   /*
   *Social Media
   */
-  /* line 111, ../scss/layouts/_desk.scss */
+  /* line 121, ../scss/layouts/_desk.scss */
   #block-block-3 {
     float: right;
     z-index: 100;
   }
-  /* line 114, ../scss/layouts/_desk.scss */
+  /* line 124, ../scss/layouts/_desk.scss */
   #block-block-3 p {
     padding: 13px 30px;
   }
-  /* line 116, ../scss/layouts/_desk.scss */
+  /* line 126, ../scss/layouts/_desk.scss */
   #block-block-3 p a {
     color: #aec380;
     text-transform: uppercase;
     font-weight: normal !important;
   }
-  /* line 120, ../scss/layouts/_desk.scss */
+  /* line 130, ../scss/layouts/_desk.scss */
   #block-block-3 p a img {
     margin: 0px 15px;
     position: relative;
     top: 3px;
   }
 
-  /* line 128, ../scss/layouts/_desk.scss */
+  /* line 138, ../scss/layouts/_desk.scss */
   #block-block-4 {
     position: absolute;
     float: right;
@@ -177,7 +198,7 @@
     bottom: -15px;
     z-index: 10;
   }
-  /* line 135, ../scss/layouts/_desk.scss */
+  /* line 145, ../scss/layouts/_desk.scss */
   #block-block-4 a {
     display: block;
     float: right;
@@ -186,7 +207,7 @@
   /************************************************************
 * Galleries
 ************************************************************/
-  /* line 152, ../scss/layouts/_desk.scss */
+  /* line 162, ../scss/layouts/_desk.scss */
   .grid-of-2 {
     max-width: 100%;
     margin-left: auto;
@@ -204,7 +225,7 @@
     display: block;
     clear: both;
   }
-  /* line 156, ../scss/layouts/_desk.scss */
+  /* line 166, ../scss/layouts/_desk.scss */
   .grid-of-2 .grid-item {
     width: 49.35065%;
     float: left;
@@ -225,7 +246,7 @@
     clear: none;
   }
 
-  /* line 163, ../scss/layouts/_desk.scss */
+  /* line 173, ../scss/layouts/_desk.scss */
   .inset-grid-of-2 {
     max-width: 100%;
     margin-left: auto;
@@ -243,7 +264,7 @@
     display: block;
     clear: both;
   }
-  /* line 167, ../scss/layouts/_desk.scss */
+  /* line 177, ../scss/layouts/_desk.scss */
   .inset-grid-of-2 .grid-item {
     width: 49.26829%;
     float: left;
@@ -264,7 +285,7 @@
     clear: none;
   }
 
-  /* line 174, ../scss/layouts/_desk.scss */
+  /* line 184, ../scss/layouts/_desk.scss */
   .grid-of-3 {
     max-width: 100%;
     margin-left: auto;
@@ -281,7 +302,7 @@
     display: block;
     clear: both;
   }
-  /* line 178, ../scss/layouts/_desk.scss */
+  /* line 188, ../scss/layouts/_desk.scss */
   .grid-of-3 .grid-item {
     width: 32.02614%;
     float: left;
@@ -307,7 +328,7 @@
     clear: none;
   }
 
-  /* line 183, ../scss/layouts/_desk.scss */
+  /* line 193, ../scss/layouts/_desk.scss */
   .grid-of-4 {
     max-width: 100%;
     margin-left: auto;
@@ -324,7 +345,7 @@
     display: block;
     clear: both;
   }
-  /* line 187, ../scss/layouts/_desk.scss */
+  /* line 197, ../scss/layouts/_desk.scss */
   .grid-of-4 .grid-item {
     width: 23.52941%;
     float: left;
@@ -356,7 +377,7 @@
     clear: none;
   }
 
-  /* line 192, ../scss/layouts/_desk.scss */
+  /* line 202, ../scss/layouts/_desk.scss */
   .grid-of-6 {
     max-width: 100%;
     margin-left: auto;
@@ -373,7 +394,7 @@
     display: block;
     clear: both;
   }
-  /* line 196, ../scss/layouts/_desk.scss */
+  /* line 206, ../scss/layouts/_desk.scss */
   .grid-of-6 .grid-item {
     width: 15.03268%;
     float: left;
@@ -417,7 +438,7 @@
     clear: none;
   }
 }
-/* line 205, ../scss/layouts/_desk.scss */
+/* line 215, ../scss/layouts/_desk.scss */
 .grid-item:after, .grid-of-2:after {
   content: ".";
   visibility: hidden;
@@ -426,12 +447,12 @@
   clear: both;
 }
 
-/* line 213, ../scss/layouts/_desk.scss */
+/* line 223, ../scss/layouts/_desk.scss */
 .grid-item img {
   width: 100%;
 }
 
-/* line 217, ../scss/layouts/_desk.scss */
+/* line 227, ../scss/layouts/_desk.scss */
 .left-one {
   float: left;
   width: 36%;
@@ -439,7 +460,7 @@
   margin-left: 12%;
 }
 
-/* line 223, ../scss/layouts/_desk.scss */
+/* line 233, ../scss/layouts/_desk.scss */
 .right-one {
   float: right;
   width: 36%;
@@ -450,7 +471,7 @@
 /*****************************
 /* product pages display groups
 /***********/
-/* line 235, ../scss/layouts/_desk.scss */
+/* line 245, ../scss/layouts/_desk.scss */
 .group-product-details {
   width: 53.47222%;
   float: right;
@@ -458,7 +479,7 @@
   margin-right: 1.04167%;
 }
 
-/* line 238, ../scss/layouts/_desk.scss */
+/* line 248, ../scss/layouts/_desk.scss */
 .group-main-image {
   width: 42.36111%;
   float: left;
@@ -860,7 +881,7 @@ html {
   }
 
   /* line 258, ../scss/layouts/_tablet.scss */
-  .page-center, .page-node-58 #content-header {
+  .page-center, .page-center-special, .page-node-58 #content-header, .page-node-59 #content-header {
     padding: 0 20px;
   }
 
@@ -885,10 +906,20 @@ html {
     clear: both !important;
   }
 
+  /* line 278, ../scss/layouts/_tablet.scss */
+  .bed-of-vegetables {
+    margin: 22px 33px !important;
+  }
+
+  /* line 282, ../scss/layouts/_tablet.scss */
+  .dirt-break .padding {
+    padding: 66px 33px !important;
+  }
+
   /*
 *Social Media navagation section
 */
-  /* line 282, ../scss/layouts/_tablet.scss */
+  /* line 292, ../scss/layouts/_tablet.scss */
   #block-block-3, #block-block-4 {
     display: none;
   }
@@ -949,19 +980,19 @@ html {
 }
 
 /* line 22, ../scss/layout.scss */
-.page-center, .page-node-58 #content-header {
+.page-center, .page-center-special, .page-node-58 #content-header, .page-node-59 #content-header {
   max-width: 1456px;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* line 29, ../scss/layout.scss */
-.page-node-58 #page {
+.page-node-58 #page, .page-node-59 #page {
   width: 100% !important;
   max-width: 100% !important;
 }
 /* line 32, ../scss/layout.scss */
-.page-node-58 #page #content {
+.page-node-58 #page #content, .page-node-59 #page #content {
   width: 100% !important;
   margin-left: 0px !important;
   margin-right: 0px !important;

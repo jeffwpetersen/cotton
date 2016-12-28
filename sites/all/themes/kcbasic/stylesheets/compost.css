@@ -331,7 +331,7 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-tit
 
 /* line 297, ../scss/compost.scss */
 .green {
-  color: #86b622;
+  color: #576240;
 }
 
 /* line 300, ../scss/compost.scss */
@@ -541,20 +541,16 @@ h2.style {
 
 /* line 487, ../scss/compost.scss */
 .green-break {
-  border-top: solid 8px #f2c53a;
   background-color: #aec380;
   padding: 40px 0;
 }
 
-/* line 494, ../scss/compost.scss */
-.light-blue-break {
+/* line 491, ../scss/compost.scss */
+.yellow-border-top {
   border-top: solid 8px #f2c53a;
-  background-color: #E1F4FD;
-  padding: 40px 0 0 0;
-  position: relative;
 }
 
-/* line 501, ../scss/compost.scss */
+/* line 496, ../scss/compost.scss */
 .light-callout {
   padding: 31px 93px;
   font-size: 1.3em;
@@ -562,40 +558,98 @@ h2.style {
   color: #ffffff;
 }
 
-/* line 507, ../scss/compost.scss */
-.bed-of-vegetables {
+/* line 502, ../scss/compost.scss */
+h2.bed-of-vegetables {
   color: #000000;
-  margin: 62px 93px !important;
+  margin: 62px 93px;
   font-weight: bold;
 }
 
-/* line 512, ../scss/compost.scss */
+/* line 507, ../scss/compost.scss */
 .img-down {
   position: relative;
   bottom: -50px;
 }
 
-/* line 516, ../scss/compost.scss */
+/* line 511, ../scss/compost.scss */
 .dirt-break {
   background-color: #594A42;
 }
-/* line 518, ../scss/compost.scss */
+/* line 513, ../scss/compost.scss */
 .dirt-break .padding {
   padding: 93px;
 }
-/* line 521, ../scss/compost.scss */
-.dirt-break h2, .dirt-break ul {
+/* line 516, ../scss/compost.scss */
+.dirt-break h2, .dirt-break ul, .dirt-break ol {
   color: #ffffff;
 }
+/* line 519, ../scss/compost.scss */
+.dirt-break p {
+  color: #ffffff;
+}
+/* line 523, ../scss/compost.scss */
+.dirt-break .strong h2 {
+  font-weight: bold;
+}
 
-/* line 525, ../scss/compost.scss */
+/* line 528, ../scss/compost.scss */
 .learn-about-the-soil-food-web {
   color: #FFF;
   padding: 62px 93px !important;
   font-weight: bold;
 }
 
-/* line 530, ../scss/compost.scss */
+/* line 533, ../scss/compost.scss */
 .white-border {
   border: solid 20px white;
+}
+
+/* line 537, ../scss/compost.scss */
+.float-left {
+  float: left;
+}
+
+/*
+* benefits of leaf compost shit.
+*/
+/* line 545, ../scss/compost.scss */
+.benefits-green-section {
+  margin-top: 110px;
+  position: relative;
+}
+
+/* line 549, ../scss/compost.scss */
+.light-blue-break {
+  border-top: solid 8px #f2c53a;
+  background-color: #E1F4FD;
+  padding: 40px 0 0 0;
+  position: relative;
+}
+
+/* line 555, ../scss/compost.scss */
+.blue-grade {
+  background-color: #ffffff;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FF89E7FF');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzg5ZTdmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #89e7ff));
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #89e7ff 100%);
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #89e7ff 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #89e7ff 100%);
+  min-height: 300px !important;
+}
+/* line 560, ../scss/compost.scss */
+.blue-grade p {
+  margin: 0px !important;
+}
+/* line 563, ../scss/compost.scss */
+.blue-grade .page-center-special {
+  min-height: 300px;
+  position: relative;
+}
+/* line 567, ../scss/compost.scss */
+.blue-grade .place-sun-image {
+  position: absolute;
+  bottom: -200px;
 }
